@@ -1,0 +1,46 @@
+project:
+  name: "Credit Scoring & Default Risk Prediction"
+  random_state: 42
+
+data:
+  raw_path: "data/raw/credit_risk_dataset.csv"
+  processed_dir: "data/processed"
+  target_col: "loan_status"
+  test_size: 0.2
+  numeric_features:
+    - "person_age"
+    - "person_income"
+    - "person_emp_length"
+    - "loan_amnt"
+    - "loan_int_rate"
+    - "loan_percent_income"
+    - "cb_person_cred_hist_length"
+  categorical_features:
+    - "person_home_ownership"
+    - "loan_intent"
+    - "loan_grade"
+    - "cb_person_default_on_file"
+
+preprocessing:
+  num_impute_strategy: "median"   # median | mean
+  outlier_method: "iqr"           # iqr | winsorization | zscore | none
+  iqr_factor: 1.5
+  scaler: "robust"                # robust | standard | minmax
+  encoder: "onehot"               # onehot | ordinal
+  balancing_method: "smote"       # smote | random_over | random_under | none
+
+modeling:
+  cv_folds: 5
+  primary_metric: "roc_auc"
+
+scorecard:
+  base_score: 600
+  base_odds: 50
+  pdo: 20
+  min_score: 300
+  max_score: 850
+
+paths:
+  models_dir: "models"
+  reports_dir: "reports"
+  figures_dir: "reports/figures"

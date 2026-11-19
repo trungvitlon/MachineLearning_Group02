@@ -1,0 +1,501 @@
+customer_id,age,gender,marital_status,education,employment_status,years_employed,annual_income,monthly_debt,loan_amount,loan_purpose,credit_history_length,num_credit_cards,credit_utilization,num_late_payments,num_accounts,home_ownership,dependents,region,bank_account_years,previous_defaults,debt_to_income_ratio,savings_balance,checking_balance,employment_type,credit_score_external,default
+C001,60,Female,Widowed,Graduate,Employed,11,117498,651,195203,Business,21,2,0.76,4,3,Rent,2,Urban,21,0,0.07,83104.0,6396.0,Part-time,586,1
+C002,49,Female,Married,Undergraduate,Employed,25,41394,520,61606,Home,6,4,0.91,1,10,Rent,2,Urban,6,0,0.15,23483.0,1478.0,Part-time,562,0
+C003,56,Female,Married,High School,Employed,4,70757,543,223481,Car,9,4,0.67,4,9,Own,2,Urban,9,0,0.09,1016.0,7869.0,Full-time,560,1
+C004,39,Male,Divorced,Undergraduate,Employed,15,91228,508,60774,Home,8,8,0.26,0,9,Mortgage,0,Suburban,11,0,0.07,12666.0,5892.0,Full-time,692,0
+C005,49,Male,Divorced,Undergraduate,Employed,5,126354,534,30965,Home,2,7,0.75,2,8,Own,0,Urban,2,0,0.05,206.0,17868.0,Full-time,627,0
+C006,53,Female,Divorced,High School,Employed,7,105450,565,173371,Car,12,1,0.32,1,5,Own,1,Suburban,12,1,0.06,18047.0,9721.0,Full-time,592,1
+C007,54,Male,Single,Undergraduate,Employed,8,35530,596,23748,Business,9,8,0.91,0,9,Own,2,Rural,9,0,0.2,18237.0,4659.0,Full-time,595,0
+C008,24,Male,Single,Postgraduate,Employed,4,120084,625,75680,Car,6,2,0.94,0,5,Own,0,Rural,6,0,0.06,12688.0,4389.0,Full-time,693,0
+C009,27,Female,Married,High School,Employed,7,121906,646,76250,Personal,6,1,0.73,0,3,Own,2,Urban,6,0,0.06,8155.0,8120.0,Full-time,669,0
+C010,51,Female,Single,Graduate,Employed,2,61616,536,40932,Business,9,1,0.49,2,4,Own,2,Suburban,22,1,0.1,12183.0,1648.0,Full-time,532,0
+C011,41,Female,Single,High School,Employed,18,107505,688,212207,Home,1,4,0.42,0,5,Rent,2,Urban,3,0,0.08,46214.0,1218.0,Full-time,687,0
+C012,33,Male,Married,Undergraduate,Employed,13,35895,520,69377,Debt Consolidation,0,7,0.59,0,4,Mortgage,0,Rural,0,0,0.17,7679.0,16.0,Full-time,609,0
+C013,27,Male,Married,Postgraduate,Employed,7,84240,584,161564,Home,2,1,0.53,3,4,Own,1,Suburban,2,0,0.08,4014.0,11093.0,Full-time,554,1
+C014,23,Female,Married,Graduate,Employed,3,79689,523,49592,Education,5,7,0.6,2,2,Mortgage,2,Urban,5,0,0.08,4495.0,10893.0,Full-time,605,0
+C015,49,Female,Single,Graduate,Employed,29,52677,548,207733,Personal,6,7,0.5,0,2,Rent,0,Urban,9,0,0.12,3051.0,7787.0,Full-time,691,1
+C016,53,Female,Married,Graduate,Unemployed,0,0,657,33417,Business,16,7,0.55,2,6,Rent,0,Urban,16,0,,,,Unemployed,495,1
+C017,22,Male,Single,Graduate,Employed,2,43500,568,160734,Debt Consolidation,4,3,0.42,0,6,Own,2,Suburban,4,0,0.16,9435.0,5188.0,Full-time,664,0
+C018,26,Female,Single,Graduate,Employed,5,56646,568,230677,Personal,1,7,0.26,4,2,Mortgage,2,Urban,1,0,0.12,4611.0,2839.0,Full-time,570,0
+C019,49,Female,Married,Graduate,Employed,29,131042,822,123691,Home,0,2,0.39,0,3,Rent,2,Suburban,0,0,0.08,100386.0,16281.0,Full-time,730,0
+C020,28,Female,Married,Undergraduate,Employed,8,122920,691,58756,Business,3,8,0.34,0,9,Rent,3,Urban,10,1,0.07,61476.0,12043.0,Full-time,623,0
+C021,46,Male,Single,Postgraduate,Employed,26,69954,560,167851,Home,12,1,0.47,5,5,Own,2,Suburban,18,0,0.1,8335.0,4980.0,Full-time,543,1
+C022,42,Female,Divorced,Graduate,Unemployed,0,0,722,42925,Car,3,7,0.63,2,10,Rent,0,Rural,4,0,,1753.0,718.0,Unemployed,495,1
+C023,30,Female,Divorced,High School,Employed,10,56432,570,242864,Home,4,4,0.51,0,7,Own,2,Urban,12,0,0.12,28178.0,4268.0,Part-time,636,0
+C024,41,Female,Married,Graduate,Employed,21,129518,811,43960,Home,5,6,0.81,5,6,Own,2,Suburban,5,0,0.08,61642.0,11003.0,Full-time,519,1
+C025,41,Male,Married,Graduate,Employed,21,98866,511,175576,Car,8,6,0.57,1,9,Own,2,Urban,15,0,0.06,61529.0,3719.0,Part-time,635,0
+C026,49,Male,Widowed,Postgraduate,Employed,20,65547,545,47532,Business,6,2,0.54,1,10,Own,2,Suburban,28,0,0.1,23793.0,7418.0,Full-time,653,1
+C027,54,Female,Divorced,Postgraduate,Employed,22,36970,532,66540,Car,3,7,0.44,0,7,Rent,0,Suburban,8,0,0.17,9860.0,1460.0,Full-time,586,0
+C028,31,Female,Married,High School,Employed,4,51949,531,196615,Car,13,8,0.27,1,7,Mortgage,0,Urban,13,0,0.12,32049.0,4363.0,Part-time,697,0
+C029,51,Female,Married,Graduate,Employed,14,67441,537,79494,Personal,1,2,0.66,0,4,Rent,1,Urban,1,1,0.1,28920.0,4261.0,Full-time,557,0
+C030,51,Male,Married,Graduate,Self-employed,19,69963,587,75123,Education,1,5,0.49,0,4,Rent,2,Urban,1,0,0.1,40118.0,6238.0,Self-employed,645,0
+C031,25,Female,Married,Undergraduate,Unemployed,0,0,621,48732,Business,7,5,0.49,0,7,Own,3,Suburban,7,0,,,,Unemployed,495,0
+C032,35,Female,Married,High School,Employed,11,49262,525,155504,Personal,0,1,0.67,6,9,Rent,2,Suburban,0,0,0.13,28699.0,2125.0,Full-time,495,0
+C033,35,Male,Single,Graduate,Employed,13,148033,870,125186,Home,5,4,0.26,0,8,Own,3,Suburban,17,0,0.07,4632.0,6288.0,Full-time,747,0
+C034,31,Male,Married,Undergraduate,Employed,8,111264,668,232521,Education,5,2,0.68,0,7,Own,2,Suburban,5,0,0.07,27285.0,1605.0,Full-time,694,0
+C035,32,Female,Single,High School,Employed,8,34324,505,189182,Car,14,3,0.86,3,2,Rent,3,Urban,14,0,0.18,13234.0,4289.0,Part-time,509,1
+C036,26,Female,Widowed,Graduate,Employed,1,134537,792,62533,Debt Consolidation,8,4,0.47,1,7,Mortgage,0,Suburban,8,0,0.07,82180.0,9865.0,Full-time,668,0
+C037,23,Female,Single,Graduate,Employed,3,66258,568,126288,Debt Consolidation,5,2,0.34,2,10,Rent,2,Suburban,5,0,0.1,51712.0,5415.0,Full-time,620,1
+C038,50,Female,Divorced,Graduate,Employed,19,53930,503,145501,Home,10,1,0.73,1,9,Rent,2,Suburban,12,0,0.11,7804.0,6565.0,Full-time,637,0
+C039,54,Male,Married,Undergraduate,Employed,7,97506,634,243810,Business,7,8,0.37,3,2,Mortgage,2,Urban,7,0,0.08,922.0,419.0,Full-time,595,0
+C040,58,Male,Married,High School,Self-employed,3,96197,640,145733,Personal,12,4,0.53,2,6,Own,2,Suburban,12,0,0.08,3756.0,4225.0,Self-employed,584,0
+C041,57,Female,Married,Graduate,Employed,6,42999,545,135033,Business,11,5,0.35,0,2,Own,2,Rural,11,0,0.15,27306.0,3531.0,Full-time,716,0
+C042,26,Female,Single,Graduate,Employed,6,135500,713,219976,Business,1,6,0.42,0,5,Own,2,Urban,8,0,0.06,101376.0,1854.0,Full-time,736,0
+C043,36,Male,Married,Graduate,Employed,3,55150,501,224581,Car,2,3,0.57,0,4,Rent,0,Suburban,18,0,0.11,1990.0,5299.0,Full-time,642,0
+C044,50,Male,Single,High School,Unemployed,0,0,676,39816,Personal,21,4,0.62,0,8,Rent,0,Suburban,21,0,,,,Unemployed,512,0
+C045,53,Female,Single,High School,Employed,14,68258,591,179937,Home,17,6,0.79,0,9,Own,1,Suburban,17,1,0.1,48770.0,4873.0,Full-time,563,1
+C046,54,Male,Widowed,Graduate,Employed,3,142599,827,83230,Debt Consolidation,15,5,0.37,2,9,Mortgage,3,Urban,24,0,0.07,87127.0,9503.0,Full-time,684,0
+C047,25,Female,Married,High School,Employed,5,46032,518,204466,Personal,7,2,0.87,3,5,Own,0,Rural,7,0,0.14,29378.0,4566.0,Full-time,508,1
+C048,58,Female,Married,Undergraduate,Unemployed,0,0,779,37771,Home,9,8,0.94,1,2,Rent,3,Urban,9,0,,,,Unemployed,495,1
+C049,60,Male,Single,Graduate,Employed,23,104532,627,248497,Education,4,1,0.44,1,10,Own,3,Suburban,9,0,0.07,1622.0,8041.0,Full-time,665,0
+C050,52,Female,Married,Undergraduate,Employed,17,65737,545,180445,Car,22,3,0.38,0,4,Rent,2,Urban,27,0,0.1,24063.0,6819.0,Full-time,696,0
+C051,56,Female,Married,Graduate,Employed,4,104478,580,218370,Debt Consolidation,13,3,0.48,2,6,Rent,3,Suburban,26,0,0.07,37904.0,5760.0,Full-time,677,0
+C052,46,Male,Single,High School,Employed,12,81474,548,89626,Education,10,1,0.56,0,9,Rent,0,Rural,16,0,0.08,51860.0,11344.0,Full-time,664,0
+C053,27,Female,Single,Undergraduate,Self-employed,17,77935,515,57641,Home,9,5,0.58,0,6,Mortgage,0,Rural,9,0,0.08,15023.0,8007.0,Self-employed,681,0
+C054,39,Male,Divorced,Graduate,Employed,19,65435,502,230017,Education,8,2,0.76,0,9,Rent,1,Suburban,10,0,0.09,15317.0,920.0,Full-time,638,0
+C055,23,Male,Married,Postgraduate,Employed,3,126122,528,36371,Debt Consolidation,5,6,0.59,1,9,Rent,0,Urban,5,0,0.05,50072.0,3430.0,Part-time,697,0
+C056,24,Male,Married,Undergraduate,Employed,1,120093,639,155566,Business,5,5,0.43,1,8,Mortgage,0,Urban,6,1,0.06,29757.0,1868.0,Full-time,602,0
+C057,25,Male,Married,Graduate,Employed,5,91665,502,233928,Debt Consolidation,4,6,0.93,3,4,Own,0,Suburban,4,0,0.07,26172.0,10106.0,Full-time,543,1
+C058,38,Female,Divorced,Undergraduate,Employed,4,64701,555,168746,Business,20,5,0.87,5,10,Own,2,Suburban,20,0,0.1,50106.0,9175.0,Part-time,497,1
+C059,26,Female,Married,High School,Employed,6,133537,848,135005,Business,3,8,0.71,1,2,Mortgage,0,Suburban,8,1,0.08,19623.0,2139.0,Full-time,543,0
+C060,34,Male,Single,Postgraduate,Employed,5,78874,530,88344,Car,9,5,0.77,0,5,Own,0,Suburban,9,0,0.08,26588.0,9739.0,Part-time,623,1
+C061,48,Male,Married,High School,Self-employed,18,120981,573,96242,Home,1,4,0.69,4,7,Mortgage,1,Urban,1,1,0.06,45539.0,17649.0,Self-employed,495,1
+C062,33,Female,Married,Undergraduate,Self-employed,16,87567,528,135374,Personal,3,3,0.67,0,2,Own,0,Urban,3,0,0.07,27082.0,12857.0,Self-employed,623,0
+C063,55,Male,Divorced,High School,Self-employed,13,73411,501,202047,Debt Consolidation,19,3,0.44,5,9,Own,3,Suburban,19,0,0.08,39214.0,4179.0,Self-employed,534,1
+C064,24,Male,Married,Postgraduate,Employed,4,112711,735,189230,Business,6,6,0.39,0,9,Rent,0,Urban,6,0,0.08,85553.0,6342.0,Full-time,738,0
+C065,45,Female,Widowed,High School,Employed,12,81027,547,124101,Home,27,6,0.66,0,9,Rent,1,Urban,27,0,0.08,60112.0,4167.0,Full-time,670,0
+C066,39,Female,Widowed,Graduate,Unemployed,0,0,891,39880,Business,19,8,0.35,0,7,Mortgage,2,Suburban,21,0,,,,Unemployed,542,0
+C067,54,Female,Married,Postgraduate,Employed,7,138737,673,249465,Car,15,2,0.28,2,9,Rent,0,Suburban,17,0,0.06,49786.0,1925.0,Part-time,664,0
+C068,52,Female,Single,Postgraduate,Employed,15,54826,583,249834,Personal,5,6,0.57,1,10,Own,3,Suburban,5,0,0.13,15313.0,7179.0,Full-time,607,0
+C069,40,Male,Married,Graduate,Employed,12,50049,521,36082,Education,9,3,0.71,0,4,Rent,3,Urban,22,0,0.12,33120.0,902.0,Full-time,670,0
+C070,52,Female,Married,Undergraduate,Unemployed,0,0,549,26295,Home,9,4,0.27,0,5,Rent,1,Urban,18,1,,,,Unemployed,495,0
+C071,33,Male,Married,Graduate,Employed,13,108301,577,217133,Car,5,5,0.3,1,7,Own,2,Urban,15,1,0.06,70135.0,2278.0,Full-time,616,0
+C072,27,Male,Married,Postgraduate,Employed,7,116475,509,163660,Business,9,8,0.61,0,10,Own,0,Suburban,9,0,0.05,79530.0,10552.0,Full-time,696,0
+C073,58,Male,Married,Undergraduate,Employed,15,48309,519,201180,Car,2,1,0.62,4,2,Own,2,Suburban,13,0,0.13,10724.0,3828.0,Full-time,497,1
+C074,35,Female,Single,Postgraduate,Unemployed,0,0,784,43857,Home,6,8,0.61,1,7,Mortgage,3,Urban,6,0,,,,Unemployed,495,0
+C075,29,Female,Single,Graduate,Unemployed,0,0,789,37582,Home,11,2,0.51,0,3,Rent,0,Urban,11,0,,1087.0,544.0,Unemployed,498,1
+C076,40,Male,Married,Undergraduate,Employed,18,47087,532,25704,Home,16,5,0.8,1,10,Mortgage,2,Urban,22,0,0.14,35941.0,4589.0,Full-time,625,0
+C077,55,Female,Divorced,Undergraduate,Employed,7,121736,575,109152,Car,6,5,0.52,1,2,Own,3,Urban,6,0,0.06,96546.0,14437.0,Full-time,698,0
+C078,35,Female,Married,Graduate,Self-employed,23,114732,652,21177,Personal,2,8,0.66,1,8,Rent,2,Rural,4,0,0.07,26987.0,13178.0,Self-employed,677,0
+C079,37,Male,Single,Postgraduate,Employed,13,67650,567,157084,Education,14,3,0.9,1,9,Mortgage,2,Urban,19,0,0.1,42641.0,6787.0,Full-time,613,0
+C080,28,Male,Divorced,Graduate,Employed,8,36441,567,139891,Debt Consolidation,6,1,0.51,1,8,Own,0,Urban,6,0,0.19,23253.0,1243.0,Part-time,571,1
+C081,31,Female,Married,Graduate,Employed,5,140641,559,187523,Car,13,3,0.69,1,3,Rent,3,Urban,13,0,0.05,17633.0,17014.0,Full-time,695,0
+C082,58,Male,Single,High School,Employed,25,37421,534,37727,Education,3,2,0.55,2,2,Own,2,Urban,17,0,0.17,29371.0,2349.0,Full-time,534,0
+C083,53,Male,Married,Undergraduate,Employed,1,40106,567,145926,Education,16,2,0.72,0,6,Rent,2,Suburban,16,0,0.17,26161.0,66.0,Full-time,637,0
+C084,24,Female,Married,Postgraduate,Unemployed,0,0,615,34109,Debt Consolidation,6,4,0.92,1,10,Rent,2,Suburban,6,0,,,,Unemployed,495,1
+C085,38,Female,Married,Graduate,Employed,8,59301,564,213783,Home,20,4,0.69,0,8,Own,3,Urban,20,1,0.11,11023.0,2785.0,Part-time,593,1
+C086,44,Female,Single,Undergraduate,Employed,3,68067,567,38073,Car,6,3,0.8,1,6,Own,1,Urban,22,0,0.1,31982.0,560.0,Full-time,583,0
+C087,56,Female,Divorced,Postgraduate,Employed,9,108222,590,26721,Car,2,6,0.93,1,10,Rent,2,Suburban,2,0,0.07,29984.0,4259.0,Full-time,654,1
+C088,37,Female,Divorced,Undergraduate,Employed,2,144055,524,37347,Personal,12,4,0.93,1,5,Own,3,Suburban,12,0,0.04,35262.0,12677.0,Full-time,680,1
+C089,23,Female,Married,Undergraduate,Employed,3,79841,578,139863,Home,5,1,0.35,0,4,Rent,2,Urban,5,0,0.09,23291.0,8800.0,Full-time,660,0
+C090,38,Male,Married,Undergraduate,Employed,5,62371,598,119071,Business,20,6,0.37,0,6,Own,2,Suburban,20,0,0.12,24282.0,6548.0,Full-time,674,0
+C091,31,Male,Single,Graduate,Employed,11,46052,531,204492,Personal,3,1,0.63,1,5,Own,0,Urban,13,0,0.14,24345.0,2557.0,Full-time,635,0
+C092,39,Female,Divorced,Graduate,Unemployed,0,0,604,39056,Home,9,1,0.73,1,2,Mortgage,3,Urban,21,0,,,,Unemployed,495,0
+C093,55,Female,Divorced,Graduate,Employed,19,77684,586,83936,Education,7,8,0.31,2,4,Rent,2,Urban,7,0,0.09,11280.0,1668.0,Full-time,616,0
+C094,52,Female,Widowed,Postgraduate,Employed,26,59956,595,144917,Car,5,8,0.61,3,9,Rent,3,Suburban,5,0,0.12,35144.0,3009.0,Full-time,553,1
+C095,57,Female,Single,High School,Self-employed,12,84964,511,236739,Business,2,6,0.59,4,3,Own,3,Urban,7,0,0.07,58279.0,7569.0,Self-employed,509,1
+C096,35,Female,Married,High School,Employed,15,128989,621,212404,Debt Consolidation,7,1,0.43,1,6,Rent,0,Rural,17,0,0.06,15997.0,14215.0,Full-time,681,0
+C097,44,Female,Single,Undergraduate,Employed,13,115457,549,139246,Business,22,4,0.76,1,2,Rent,2,Urban,22,0,0.06,83986.0,16406.0,Full-time,711,0
+C098,46,Female,Married,High School,Employed,3,112368,723,214018,Car,1,1,0.64,2,8,Mortgage,2,Suburban,1,0,0.08,31656.0,2159.0,Full-time,599,0
+C099,43,Female,Married,High School,Unemployed,0,0,519,43928,Business,15,7,0.46,3,6,Rent,2,Urban,15,0,,,,Unemployed,495,1
+C100,56,Female,Married,Undergraduate,Employed,4,91627,516,166451,Personal,14,3,0.3,1,8,Rent,2,Urban,28,0,0.07,11005.0,10775.0,Full-time,693,0
+C101,52,Female,Divorced,Undergraduate,Employed,26,67861,547,161330,Education,3,7,0.76,0,5,Mortgage,0,Urban,3,0,0.1,27386.0,9518.0,Full-time,627,0
+C102,54,Male,Married,Undergraduate,Unemployed,0,0,574,38555,Home,16,5,0.38,0,3,Mortgage,0,Suburban,25,0,,,,Unemployed,556,1
+C103,38,Male,Single,Postgraduate,Self-employed,7,92963,520,153168,Car,4,6,0.69,0,8,Own,0,Urban,4,0,0.07,2839.0,3384.0,Self-employed,609,1
+C104,52,Female,Married,Postgraduate,Employed,28,133302,769,39675,Car,15,6,0.55,3,7,Rent,0,Urban,15,0,0.07,5347.0,2643.0,Full-time,649,0
+C105,42,Female,Single,Graduate,Employed,11,96707,619,85428,Debt Consolidation,5,2,0.94,0,8,Own,0,Urban,24,0,0.08,26928.0,1938.0,Full-time,609,0
+C106,33,Male,Single,High School,Employed,13,49446,560,226487,Education,1,2,0.63,2,2,Rent,2,Urban,1,0,0.14,12485.0,2657.0,Full-time,554,1
+C107,23,Female,Divorced,Graduate,Employed,3,104071,558,50651,Car,2,7,0.6,0,6,Rent,1,Urban,2,0,0.06,30573.0,13171.0,Full-time,667,0
+C108,42,Male,Divorced,Postgraduate,Unemployed,0,0,868,27193,Car,24,6,0.49,0,5,Mortgage,0,Urban,24,0,,,,Unemployed,557,1
+C109,40,Male,Widowed,High School,Employed,4,87828,508,26710,Debt Consolidation,7,2,0.56,1,3,Mortgage,2,Urban,7,0,0.07,11116.0,258.0,Full-time,600,0
+C110,59,Male,Married,High School,Retired,0,65188,593,87843,Debt Consolidation,13,3,0.87,3,8,Rent,1,Suburban,13,1,0.11,42870.0,5108.0,Retired,495,1
+C111,25,Female,Divorced,Undergraduate,Employed,1,56819,504,175289,Business,7,5,0.46,4,7,Mortgage,0,Urban,7,0,0.11,30090.0,5569.0,Full-time,561,1
+C112,42,Female,Married,Graduate,Employed,22,121353,662,45556,Personal,1,3,0.57,2,10,Mortgage,1,Urban,1,0,0.07,6416.0,6980.0,Full-time,627,0
+C113,48,Male,Single,Graduate,Employed,15,97494,623,58547,Home,7,7,0.3,0,10,Own,0,Urban,7,0,0.08,71906.0,9528.0,Full-time,668,0
+C114,35,Female,Divorced,Graduate,Employed,1,116661,590,87990,Car,14,6,0.41,0,4,Own,2,Suburban,17,0,0.06,22010.0,8787.0,Full-time,720,0
+C115,35,Female,Widowed,High School,Self-employed,21,74264,583,210747,Education,6,7,0.64,1,10,Own,2,Rural,6,0,0.09,56307.0,4493.0,Self-employed,634,0
+C116,57,Female,Single,High School,Self-employed,23,61240,577,249306,Debt Consolidation,4,3,0.88,3,10,Rent,2,Urban,8,0,0.11,5374.0,4790.0,Self-employed,521,1
+C117,51,Female,Married,Postgraduate,Employed,20,74900,572,36288,Education,4,3,0.83,3,2,Own,3,Suburban,8,0,0.09,32174.0,1447.0,Full-time,527,1
+C118,36,Male,Single,High School,Employed,16,148428,954,169302,Personal,4,6,0.8,5,3,Own,0,Rural,18,0,0.08,11190.0,9984.0,Full-time,524,1
+C119,43,Male,Single,High School,Employed,10,54000,598,62604,Debt Consolidation,2,5,0.58,1,7,Mortgage,2,Rural,2,1,0.13,17543.0,4650.0,Full-time,535,1
+C120,60,Male,Married,High School,Employed,24,142164,843,150576,Education,18,7,0.65,0,4,Rent,1,Urban,18,0,0.07,52780.0,11431.0,Full-time,736,0
+C121,29,Male,Married,Graduate,Unemployed,0,0,952,23321,Home,11,7,0.75,3,2,Rent,1,Suburban,11,0,,,,Unemployed,495,1
+C122,57,Female,Single,Graduate,Employed,19,49086,562,91425,Education,8,2,0.87,1,3,Rent,2,Rural,8,0,0.14,17154.0,3155.0,Full-time,577,0
+C123,50,Female,Divorced,Postgraduate,Employed,11,64624,589,87534,Education,20,1,0.4,1,9,Rent,2,Suburban,20,0,0.11,10516.0,1130.0,Full-time,667,0
+C124,30,Male,Divorced,Graduate,Employed,10,69758,574,102279,Car,12,6,0.74,2,8,Own,0,Urban,12,0,0.1,11172.0,6.0,Full-time,587,0
+C125,22,Male,Single,High School,Employed,2,124333,793,31120,Education,2,8,0.4,6,2,Rent,2,Suburban,4,0,0.08,83820.0,9649.0,Full-time,552,1
+C126,24,Male,Single,High School,Employed,4,56417,514,140956,Education,6,5,0.83,0,6,Mortgage,0,Rural,6,0,0.11,30403.0,785.0,Full-time,604,0
+C127,34,Male,Widowed,Undergraduate,Employed,5,45848,585,96449,Education,16,3,0.5,3,4,Own,1,Urban,16,0,0.15,16766.0,5099.0,Full-time,582,0
+C128,25,Male,Single,Graduate,Self-employed,6,113922,598,190492,Personal,7,6,0.65,1,6,Rent,3,Urban,7,0,0.06,1307.0,14852.0,Self-employed,646,0
+C129,40,Male,Widowed,Postgraduate,Self-employed,23,94789,504,206762,Home,20,1,0.86,4,2,Mortgage,2,Suburban,22,1,0.06,60011.0,5867.0,Self-employed,495,1
+C130,57,Female,Married,Graduate,Self-employed,21,86593,550,56304,Education,13,2,0.56,1,5,Own,1,Suburban,13,0,0.08,19503.0,10750.0,Self-employed,644,0
+C131,38,Male,Divorced,Postgraduate,Employed,13,55518,579,243518,Car,20,6,0.76,2,6,Rent,0,Rural,20,0,0.13,11944.0,3735.0,Full-time,575,1
+C132,51,Male,Widowed,High School,Employed,3,96624,500,160836,Education,8,8,0.79,2,2,Own,3,Urban,12,0,0.06,15038.0,3175.0,Full-time,548,0
+C133,35,Female,Married,High School,Employed,13,140252,560,218700,Business,6,8,0.73,0,3,Own,1,Suburban,17,0,0.05,81253.0,7355.0,Full-time,674,0
+C134,52,Female,Divorced,Undergraduate,Employed,22,131084,820,48454,Home,8,5,0.27,0,4,Rent,0,Urban,8,0,0.08,30750.0,10576.0,Full-time,730,0
+C135,31,Female,Divorced,Graduate,Employed,11,137507,521,248174,Debt Consolidation,3,3,0.79,0,8,Rent,2,Suburban,3,0,0.05,37713.0,7927.0,Full-time,680,1
+C136,33,Male,Single,High School,Employed,6,52736,507,209233,Home,5,4,0.77,0,10,Rent,2,Urban,5,0,0.12,5793.0,4523.0,Full-time,621,0
+C137,34,Male,Divorced,Undergraduate,Employed,14,130252,716,112122,Car,14,5,0.75,2,2,Mortgage,3,Urban,14,0,0.07,93635.0,12718.0,Full-time,623,0
+C138,41,Male,Married,Postgraduate,Employed,9,96914,604,107697,Personal,6,5,0.54,3,3,Rent,0,Urban,6,0,0.07,52389.0,13770.0,Full-time,546,1
+C139,57,Male,Married,High School,Employed,3,92491,520,78283,Personal,7,6,0.66,0,4,Rent,1,Rural,7,0,0.07,4213.0,10293.0,Part-time,666,0
+C140,31,Female,Single,Postgraduate,Self-employed,5,74472,516,202885,Personal,13,8,0.76,3,7,Mortgage,2,Suburban,13,0,0.08,19611.0,11023.0,Self-employed,584,1
+C141,33,Male,Married,High School,Employed,7,50447,532,49336,Car,6,1,0.51,0,6,Mortgage,1,Urban,6,0,0.13,20936.0,2207.0,Full-time,637,0
+C142,46,Female,Married,Undergraduate,Employed,2,117265,623,53870,Personal,4,2,0.94,0,9,Own,1,Urban,25,1,0.06,61215.0,16661.0,Full-time,583,1
+C143,28,Female,Divorced,Graduate,Unemployed,0,0,859,42983,Personal,10,4,0.7,3,5,Mortgage,1,Urban,10,0,,,,Unemployed,495,1
+C144,47,Male,Divorced,Undergraduate,Employed,6,146634,560,104703,Car,14,5,0.68,4,3,Own,0,Urban,20,0,0.05,67468.0,11486.0,Full-time,605,1
+C145,50,Female,Single,High School,Employed,11,84110,515,48328,Personal,2,8,0.53,5,10,Own,2,Rural,2,0,0.07,63064.0,7186.0,Full-time,507,1
+C146,39,Female,Single,Graduate,Employed,11,54820,507,70081,Education,8,6,0.75,0,2,Mortgage,2,Urban,9,0,0.11,36435.0,5973.0,Part-time,627,0
+C147,58,Female,Married,Undergraduate,Employed,10,93227,571,171094,Business,5,3,0.27,1,5,Mortgage,2,Suburban,21,0,0.07,19702.0,8858.0,Full-time,678,0
+C148,46,Male,Married,Graduate,Employed,7,50058,517,150064,Education,19,4,0.65,1,2,Mortgage,0,Urban,19,0,0.12,24729.0,5996.0,Full-time,670,1
+C149,32,Male,Single,High School,Employed,12,93043,555,147626,Business,3,4,0.78,0,8,Rent,0,Rural,14,1,0.07,45607.0,7812.0,Full-time,504,1
+C150,41,Male,Married,High School,Employed,14,90315,567,172026,Car,3,5,0.57,0,9,Own,0,Urban,14,0,0.08,62433.0,3607.0,Full-time,655,0
+C151,55,Male,Married,High School,Employed,21,87149,559,183324,Debt Consolidation,5,1,0.93,0,7,Own,0,Rural,5,0,0.08,38402.0,8575.0,Full-time,606,0
+C152,49,Female,Single,Graduate,Employed,18,90957,526,174136,Business,13,6,0.49,6,5,Rent,2,Suburban,13,1,0.07,5141.0,12500.0,Full-time,495,1
+C153,37,Male,Married,Graduate,Employed,17,82874,516,47128,Personal,15,7,0.75,2,7,Mortgage,0,Urban,15,0,0.07,2610.0,12067.0,Full-time,589,0
+C154,23,Female,Single,High School,Employed,3,146349,750,170945,Home,5,5,0.4,2,6,Rent,2,Urban,5,1,0.06,25675.0,18287.0,Full-time,578,0
+C155,22,Male,Married,High School,Employed,2,54618,577,38919,Car,0,2,0.56,0,4,Own,2,Suburban,0,0,0.13,40880.0,5287.0,Full-time,646,0
+C156,48,Female,Divorced,High School,Employed,27,62298,594,220339,Personal,11,2,0.86,2,6,Rent,2,Suburban,11,0,0.11,49079.0,8566.0,Part-time,559,0
+C157,40,Male,Single,Graduate,Employed,11,122036,596,86960,Education,22,6,0.67,0,2,Own,0,Suburban,22,0,0.06,81938.0,12253.0,Full-time,744,0
+C158,34,Female,Married,Graduate,Employed,14,52931,562,75633,Car,8,8,0.3,1,2,Rent,0,Urban,8,0,0.13,30020.0,5531.0,Full-time,683,0
+C159,47,Female,Married,Undergraduate,Employed,25,109650,523,222363,Car,5,2,0.67,0,7,Rent,1,Urban,5,0,0.06,64619.0,3554.0,Full-time,703,0
+C160,55,Female,Widowed,Undergraduate,Employed,9,66963,528,38689,Personal,0,2,0.56,1,7,Rent,2,Suburban,0,1,0.09,47994.0,1271.0,Full-time,504,0
+C161,46,Male,Married,High School,Employed,1,136121,545,101132,Car,5,6,0.32,0,7,Mortgage,2,Urban,5,0,0.05,7674.0,17748.0,Full-time,749,0
+C162,36,Female,Married,Graduate,Employed,16,121176,667,30451,Home,18,7,0.77,0,2,Own,0,Suburban,18,0,0.07,5039.0,14631.0,Full-time,683,0
+C163,54,Male,Married,Undergraduate,Employed,4,37610,545,133143,Business,6,1,0.43,6,9,Rent,1,Rural,9,0,0.17,23248.0,2556.0,Full-time,495,1
+C164,49,Male,Divorced,Graduate,Employed,11,93610,539,235033,Personal,17,3,0.91,0,3,Own,2,Urban,17,0,0.07,7352.0,13516.0,Full-time,623,0
+C165,45,Female,Single,Undergraduate,Employed,6,61781,504,45500,Home,9,5,0.77,2,5,Mortgage,2,Urban,9,0,0.1,12356.0,195.0,Full-time,554,1
+C166,44,Male,Married,Undergraduate,Employed,23,140431,676,82061,Car,7,8,0.86,0,10,Rent,2,Suburban,25,0,0.06,84514.0,661.0,Full-time,692,0
+C167,44,Male,Single,Undergraduate,Employed,15,31700,545,43199,Personal,14,7,0.55,2,6,Own,1,Urban,14,0,0.21,14955.0,3089.0,Full-time,538,0
+C168,51,Male,Married,Graduate,Employed,19,73939,527,197385,Business,7,7,0.42,0,7,Mortgage,3,Urban,13,0,0.09,54935.0,7751.0,Full-time,669,0
+C169,54,Female,Divorced,Graduate,Employed,2,35618,533,152992,Education,15,5,0.74,1,8,Own,1,Suburban,15,0,0.18,6160.0,4166.0,Full-time,571,0
+C170,24,Male,Married,Postgraduate,Unemployed,0,0,752,44826,Business,6,5,0.41,2,10,Mortgage,2,Suburban,6,0,,,,Unemployed,495,0
+C171,37,Male,Married,Undergraduate,Employed,2,148696,638,24994,Education,13,1,0.81,4,3,Own,2,Urban,13,0,0.05,51717.0,2763.0,Part-time,566,1
+C172,36,Female,Married,Postgraduate,Unemployed,0,0,947,36915,Education,10,5,0.56,0,9,Rent,1,Suburban,18,0,,,,Unemployed,495,1
+C173,53,Male,Married,Graduate,Employed,2,85612,524,74319,Personal,7,2,0.63,1,8,Rent,2,Urban,7,0,0.07,20176.0,11618.0,Full-time,642,0
+C174,50,Male,Single,High School,Self-employed,25,67374,520,227746,Car,3,5,0.63,2,7,Own,3,Suburban,3,0,0.09,38712.0,7404.0,Self-employed,592,0
+C175,33,Female,Married,High School,Employed,13,34886,561,182527,Debt Consolidation,15,3,0.91,1,2,Rent,0,Suburban,15,0,0.19,4251.0,3988.0,Full-time,560,1
+C176,57,Male,Single,Graduate,Employed,6,142599,839,171396,Personal,0,8,0.27,0,7,Rent,2,Suburban,0,0,0.07,81570.0,5710.0,Full-time,724,1
+C177,27,Male,Divorced,Postgraduate,Unemployed,0,0,901,48901,Car,7,1,0.65,0,5,Own,1,Rural,7,1,,1072.0,657.0,Unemployed,495,1
+C178,52,Male,Single,Undergraduate,Self-employed,24,129818,803,134589,Education,2,6,0.26,4,2,Rent,3,Rural,2,0,0.07,65206.0,3839.0,Self-employed,609,0
+C179,37,Male,Divorced,Graduate,Employed,11,66289,524,59850,Personal,15,7,0.9,4,8,Mortgage,2,Rural,15,0,0.09,4996.0,5780.0,Full-time,548,1
+C180,41,Female,Married,High School,Employed,18,102567,632,242123,Home,23,1,0.7,0,4,Own,1,Suburban,23,0,0.07,39104.0,1678.0,Part-time,702,1
+C181,38,Male,Divorced,High School,Employed,15,116795,721,155699,Debt Consolidation,2,8,0.92,3,3,Rent,2,Urban,2,0,0.07,53027.0,9802.0,Full-time,579,1
+C182,43,Female,Single,Undergraduate,Self-employed,18,75517,506,229725,Education,15,8,0.39,2,9,Own,0,Suburban,25,1,0.08,28850.0,2259.0,Self-employed,509,0
+C183,52,Male,Married,Postgraduate,Employed,21,35750,541,55903,Debt Consolidation,19,6,0.52,0,3,Own,2,Urban,28,0,0.18,2775.0,5001.0,Full-time,655,0
+C184,41,Male,Widowed,High School,Employed,11,120221,555,197244,Personal,7,4,0.5,2,5,Mortgage,0,Urban,9,0,0.06,60931.0,11486.0,Full-time,645,1
+C185,45,Male,Single,High School,Employed,5,77295,523,86983,Business,11,4,0.59,0,8,Own,2,Suburban,11,1,0.08,37688.0,10345.0,Full-time,574,1
+C186,43,Male,Single,Graduate,Employed,15,88870,531,63856,Home,7,2,0.39,1,10,Own,3,Suburban,7,0,0.07,17618.0,6587.0,Full-time,658,0
+C187,39,Female,Single,Undergraduate,Employed,17,97568,576,188914,Home,21,6,0.7,0,8,Own,2,Urban,21,1,0.07,67231.0,3258.0,Full-time,554,0
+C188,49,Male,Single,High School,Employed,29,93909,561,159335,Home,5,8,0.81,0,2,Mortgage,0,Suburban,5,0,0.07,12100.0,7869.0,Part-time,627,1
+C189,52,Female,Married,Graduate,Employed,10,127905,704,38931,Home,4,1,0.64,0,9,Own,2,Suburban,21,0,0.07,71386.0,7446.0,Full-time,713,0
+C190,47,Male,Divorced,Undergraduate,Employed,2,106533,529,225712,Education,17,6,0.83,0,6,Rent,1,Suburban,17,0,0.06,79414.0,6992.0,Full-time,718,0
+C191,30,Female,Married,Graduate,Employed,10,65464,543,170528,Business,2,8,0.42,0,2,Mortgage,0,Urban,10,0,0.1,27527.0,8263.0,Full-time,688,0
+C192,32,Male,Single,Graduate,Employed,12,105319,601,33233,Education,12,6,0.31,0,4,Rent,0,Suburban,12,0,0.07,23666.0,9665.0,Full-time,761,0
+C193,49,Male,Married,Graduate,Self-employed,21,106563,676,248931,Business,3,5,0.26,2,10,Own,1,Suburban,3,0,0.08,71762.0,5305.0,Self-employed,699,0
+C194,49,Male,Single,Postgraduate,Self-employed,20,98003,636,40389,Personal,23,6,0.56,4,4,Mortgage,2,Rural,23,0,0.08,76777.0,1096.0,Self-employed,593,0
+C195,31,Male,Divorced,Graduate,Employed,11,42392,546,35641,Car,13,2,0.88,4,8,Mortgage,2,Urban,13,0,0.15,26177.0,4765.0,Full-time,535,1
+C196,41,Male,Divorced,High School,Employed,21,95785,524,45901,Education,23,2,0.63,4,8,Rent,1,Urban,23,0,0.07,13026.0,2773.0,Full-time,550,0
+C197,31,Male,Divorced,High School,Employed,11,128614,736,40922,Debt Consolidation,5,1,0.88,2,9,Own,0,Suburban,13,0,0.07,5898.0,18395.0,Full-time,611,0
+C198,34,Male,Married,Graduate,Employed,7,148494,661,103639,Personal,12,1,0.57,0,2,Mortgage,0,Urban,16,0,0.05,72373.0,1449.0,Full-time,729,0
+C199,59,Male,Married,Undergraduate,Employed,17,144853,928,86125,Debt Consolidation,2,6,0.52,3,7,Own,2,Urban,2,0,0.08,75504.0,2462.0,Full-time,594,0
+C200,27,Male,Divorced,Graduate,Employed,7,100021,645,181215,Personal,9,6,0.84,0,8,Rent,2,Urban,9,0,0.08,15086.0,1003.0,Full-time,696,0
+C201,41,Female,Married,Postgraduate,Employed,7,143002,787,120706,Personal,6,2,0.63,0,5,Rent,0,Urban,12,0,0.07,4827.0,13699.0,Part-time,684,0
+C202,23,Male,Single,Undergraduate,Employed,2,82999,556,78219,Business,5,6,0.62,2,8,Rent,3,Urban,5,0,0.08,40317.0,6316.0,Full-time,600,1
+C203,25,Male,Divorced,Undergraduate,Employed,5,39417,562,88207,Business,7,3,0.93,5,5,Rent,2,Urban,7,0,0.17,16260.0,2463.0,Full-time,495,1
+C204,43,Male,Married,Graduate,Employed,23,32123,572,82993,Car,18,7,0.54,1,8,Rent,0,Rural,18,0,0.21,2017.0,2415.0,Full-time,599,0
+C205,51,Male,Divorced,High School,Employed,11,142138,672,60149,Home,2,4,0.28,4,2,Mortgage,0,Urban,29,0,0.06,73914.0,1881.0,Full-time,610,0
+C206,33,Female,Married,Postgraduate,Employed,8,62006,562,32205,Personal,11,6,0.36,0,2,Own,2,Urban,11,0,0.11,25095.0,5956.0,Full-time,676,0
+C207,50,Male,Divorced,High School,Employed,28,129708,727,237282,Debt Consolidation,19,5,0.65,3,8,Own,0,Suburban,19,0,0.07,80152.0,4933.0,Full-time,622,0
+C208,53,Female,Single,Graduate,Self-employed,13,157325,720,103829,Personal,20,4,0.47,0,4,Mortgage,2,Urban,21,0,0.05,113779.0,22766.0,Self-employed,718,0
+C209,53,Female,Single,High School,Employed,4,90380,541,247916,Home,9,7,0.33,0,4,Rent,2,Suburban,9,0,0.07,46418.0,9822.0,Part-time,685,0
+C210,31,Female,Married,Graduate,Employed,11,61831,584,184726,Personal,6,7,0.82,0,2,Own,2,Suburban,6,0,0.11,320.0,4654.0,Full-time,631,0
+C211,23,Female,Divorced,High School,Employed,3,70130,526,153609,Home,2,1,0.73,1,5,Mortgage,0,Rural,5,0,0.09,4873.0,8635.0,Full-time,595,1
+C212,58,Female,Single,Graduate,Employed,2,78287,511,133985,Home,11,1,0.69,3,5,Rent,2,Urban,11,0,0.08,28992.0,11671.0,Full-time,534,1
+C213,35,Female,Single,Postgraduate,Employed,10,49053,587,109745,Debt Consolidation,1,4,0.36,3,5,Rent,2,Suburban,1,0,0.14,2776.0,1119.0,Full-time,561,0
+C214,39,Female,Single,High School,Employed,8,101117,639,236781,Home,12,6,0.34,0,2,Own,0,Urban,12,0,0.08,37419.0,609.0,Full-time,756,0
+C215,44,Female,Single,Undergraduate,Employed,24,140674,787,89590,Education,20,3,0.88,1,10,Own,3,Urban,26,0,0.07,79788.0,4603.0,Full-time,643,1
+C216,22,Female,Single,High School,Employed,2,125961,545,113715,Business,0,2,0.58,0,3,Rent,2,Rural,0,0,0.05,69639.0,2076.0,Full-time,668,0
+C217,56,Male,Married,Graduate,Self-employed,24,156258,670,125573,Education,12,1,0.45,1,6,Own,2,Suburban,12,0,0.05,75986.0,20423.0,Self-employed,711,0
+C218,47,Male,Married,Graduate,Employed,12,84478,510,179693,Car,9,3,0.28,1,7,Rent,0,Urban,9,0,0.07,48994.0,12615.0,Full-time,667,0
+C219,28,Male,Divorced,Postgraduate,Employed,8,129956,587,138580,Home,10,5,0.74,0,7,Rent,2,Suburban,10,0,0.05,79878.0,13945.0,Full-time,697,0
+C220,44,Male,Single,Graduate,Employed,19,37008,529,56386,Personal,3,8,0.33,4,9,Rent,3,Urban,16,1,0.17,27241.0,506.0,Full-time,495,1
+C221,59,Female,Divorced,Postgraduate,Employed,10,113384,549,65436,Debt Consolidation,20,1,0.34,0,3,Own,2,Rural,26,0,0.06,74229.0,8921.0,Full-time,729,1
+C222,30,Male,Married,Undergraduate,Employed,10,91816,528,20507,Business,12,3,0.51,1,8,Own,2,Suburban,12,1,0.07,24495.0,3715.0,Full-time,538,1
+C223,23,Female,Divorced,Undergraduate,Employed,3,105609,633,146700,Debt Consolidation,5,8,0.53,1,6,Mortgage,1,Urban,5,0,0.07,67616.0,6089.0,Part-time,688,0
+C224,48,Male,Widowed,High School,Employed,15,141361,671,155028,Debt Consolidation,3,7,0.88,0,6,Mortgage,2,Urban,17,1,0.06,98234.0,15966.0,Full-time,581,1
+C225,39,Female,Married,Graduate,Employed,19,85798,515,95318,Debt Consolidation,6,8,0.4,1,10,Mortgage,2,Suburban,6,0,0.07,35892.0,8671.0,Full-time,633,0
+C226,36,Male,Married,High School,Employed,6,35515,592,233580,Business,2,8,0.84,0,5,Rent,0,Urban,2,0,0.2,16940.0,5255.0,Full-time,542,1
+C227,30,Female,Single,High School,Self-employed,24,94439,500,34308,Car,10,6,0.57,1,3,Mortgage,3,Suburban,10,0,0.06,26299.0,1689.0,Self-employed,620,0
+C228,57,Male,Single,Graduate,Self-employed,13,109213,645,70971,Business,27,1,0.29,0,10,Own,2,Urban,27,0,0.07,59872.0,7235.0,Self-employed,765,1
+C229,24,Female,Married,Graduate,Employed,4,75203,581,143246,Car,6,5,0.58,4,3,Mortgage,1,Urban,6,0,0.09,3786.0,5266.0,Full-time,559,1
+C230,35,Female,Married,Undergraduate,Employed,15,135973,719,206443,Personal,17,1,0.83,3,2,Rent,2,Suburban,17,1,0.06,13921.0,126.0,Full-time,515,1
+C231,34,Female,Married,Postgraduate,Employed,14,32887,584,71413,Car,7,1,0.54,0,4,Own,0,Suburban,7,0,0.21,16234.0,1375.0,Full-time,622,0
+C232,44,Male,Single,Undergraduate,Employed,19,92766,506,168137,Car,15,3,0.43,2,10,Rent,2,Suburban,15,0,0.07,2159.0,13900.0,Full-time,622,0
+C233,49,Male,Married,High School,Self-employed,8,50901,574,107980,Debt Consolidation,1,3,0.37,1,9,Rent,1,Urban,1,0,0.14,7036.0,6487.0,Self-employed,653,0
+C234,57,Male,Single,Postgraduate,Employed,19,93382,553,204847,Business,1,2,0.38,0,9,Rent,2,Rural,8,0,0.07,40581.0,2068.0,Full-time,667,0
+C235,60,Male,Single,Graduate,Employed,9,79630,539,130782,Home,9,2,0.9,0,4,Rent,0,Urban,12,0,0.08,30966.0,3332.0,Full-time,602,0
+C236,23,Male,Divorced,Postgraduate,Unemployed,0,0,690,35855,Debt Consolidation,5,5,0.25,4,5,Mortgage,2,Urban,5,0,,,,Unemployed,495,1
+C237,28,Female,Married,Postgraduate,Employed,8,74237,594,237078,Home,10,4,0.29,0,10,Rent,2,Suburban,10,0,0.1,731.0,1129.0,Full-time,700,0
+C238,56,Female,Single,Undergraduate,Employed,15,49773,567,71415,Home,11,3,0.84,0,7,Own,2,Urban,11,0,0.14,31186.0,2352.0,Full-time,637,0
+C239,29,Female,Single,Graduate,Self-employed,29,131417,535,30785,Home,5,2,0.91,2,10,Rent,3,Urban,5,0,0.05,15511.0,10570.0,Self-employed,624,1
+C240,55,Female,Divorced,Postgraduate,Employed,24,146582,775,173778,Debt Consolidation,7,1,0.94,1,9,Rent,0,Rural,26,0,0.06,44066.0,16762.0,Full-time,613,1
+C241,28,Male,Widowed,High School,Self-employed,12,137924,562,225489,Personal,4,3,0.67,1,6,Rent,0,Urban,4,1,0.05,33139.0,5565.0,Self-employed,533,1
+C242,52,Male,Divorced,Graduate,Self-employed,17,151454,526,242789,Car,3,8,0.74,1,10,Own,0,Urban,3,0,0.04,106847.0,9916.0,Self-employed,661,1
+C243,34,Male,Single,Undergraduate,Employed,7,35596,524,23775,Debt Consolidation,8,3,0.42,0,10,Rent,2,Urban,13,0,0.18,4435.0,2644.0,Full-time,622,0
+C244,58,Female,Divorced,Graduate,Employed,4,145284,889,127357,Home,6,5,0.43,0,4,Mortgage,0,Urban,6,0,0.07,26312.0,6852.0,Full-time,728,0
+C245,57,Female,Divorced,Graduate,Employed,18,56950,503,20215,Personal,18,3,0.51,1,10,Own,0,Urban,28,0,0.11,28229.0,2365.0,Part-time,684,1
+C246,45,Female,Married,High School,Employed,25,87769,522,239793,Debt Consolidation,18,2,0.62,0,8,Rent,1,Suburban,18,0,0.07,37333.0,11769.0,Part-time,685,0
+C247,50,Male,Married,Postgraduate,Employed,6,115119,564,213946,Debt Consolidation,16,8,0.63,0,7,Mortgage,1,Rural,16,0,0.06,73531.0,13276.0,Part-time,743,0
+C248,50,Male,Single,High School,Employed,17,129621,706,197112,Debt Consolidation,22,3,0.69,0,3,Own,3,Urban,23,1,0.07,95027.0,2757.0,Full-time,595,0
+C249,48,Male,Divorced,High School,Employed,1,140179,772,116426,Home,23,7,0.39,0,3,Own,3,Urban,26,0,0.07,87245.0,13327.0,Part-time,730,0
+C250,31,Female,Single,Graduate,Employed,11,149534,710,209637,Car,5,1,0.28,0,8,Rent,2,Suburban,5,0,0.06,6937.0,7118.0,Full-time,728,0
+C251,48,Male,Married,Graduate,Employed,16,146045,578,130114,Business,22,2,0.57,1,8,Own,2,Suburban,22,1,0.05,43601.0,3114.0,Full-time,609,0
+C252,35,Female,Married,Undergraduate,Self-employed,19,61360,562,161385,Car,12,8,0.66,1,2,Own,0,Suburban,17,0,0.11,20977.0,1465.0,Self-employed,656,0
+C253,28,Male,Single,Graduate,Employed,8,57160,537,106442,Home,10,8,0.39,1,9,Own,0,Suburban,10,1,0.11,38239.0,888.0,Full-time,522,0
+C254,25,Male,Single,Graduate,Employed,5,108518,608,110697,Home,7,8,0.46,1,2,Own,2,Suburban,7,0,0.07,32924.0,8926.0,Full-time,706,0
+C255,30,Male,Single,Undergraduate,Self-employed,27,92137,545,151225,Personal,12,8,0.59,0,4,Own,0,Suburban,12,0,0.07,47691.0,4272.0,Self-employed,667,0
+C256,47,Male,Widowed,Graduate,Employed,24,63980,548,160416,Home,9,8,0.52,1,8,Rent,2,Urban,9,0,0.1,37011.0,9549.0,Full-time,621,0
+C257,28,Male,Married,Undergraduate,Employed,8,129841,548,31549,Personal,10,1,0.75,0,3,Own,0,Rural,10,0,0.05,72603.0,10151.0,Full-time,685,0
+C258,36,Male,Married,Graduate,Employed,3,125414,599,158561,Debt Consolidation,15,2,0.91,1,5,Rent,2,Urban,15,0,0.06,20659.0,12410.0,Full-time,640,1
+C259,28,Female,Divorced,Undergraduate,Employed,8,139636,886,229087,Car,4,5,0.62,1,7,Mortgage,3,Urban,4,0,0.08,66708.0,20901.0,Full-time,656,0
+C260,56,Male,Widowed,Graduate,Employed,9,102201,614,132272,Home,7,4,0.37,2,6,Own,3,Suburban,11,0,0.07,60241.0,2244.0,Full-time,640,0
+C261,31,Female,Single,Undergraduate,Employed,2,32567,552,96411,Personal,9,4,0.43,2,7,Own,1,Urban,9,0,0.2,20116.0,2283.0,Full-time,556,0
+C262,45,Male,Married,Undergraduate,Employed,12,68729,505,192409,Home,18,6,0.59,0,9,Own,2,Urban,18,0,0.09,20308.0,6200.0,Part-time,652,0
+C263,39,Female,Married,Undergraduate,Employed,19,70115,525,197897,Home,10,2,0.53,1,8,Own,2,Urban,10,0,0.09,13543.0,6401.0,Full-time,613,0
+C264,55,Female,Married,Graduate,Employed,29,80717,586,51625,Personal,11,2,0.93,3,9,Rent,2,Urban,16,0,0.09,11154.0,6353.0,Full-time,550,1
+C265,44,Male,Single,Undergraduate,Employed,24,126367,681,107453,Education,18,3,0.85,1,3,Mortgage,3,Urban,18,0,0.06,88657.0,10828.0,Full-time,668,0
+C266,58,Male,Divorced,Graduate,Employed,15,98580,551,97129,Education,8,6,0.47,0,8,Rent,0,Suburban,8,0,0.07,11618.0,8446.0,Full-time,670,0
+C267,27,Male,Single,Graduate,Employed,7,69148,539,193542,Education,9,8,0.49,6,9,Own,3,Rural,9,0,0.09,13161.0,8075.0,Full-time,511,1
+C268,54,Female,Married,Undergraduate,Employed,2,30877,557,116870,Debt Consolidation,10,6,0.44,0,9,Own,2,Suburban,10,0,0.22,22834.0,3657.0,Full-time,632,0
+C269,36,Male,Married,High School,Self-employed,18,156471,780,49475,Personal,1,5,0.55,3,3,Mortgage,0,Rural,1,0,0.06,77814.0,8417.0,Self-employed,633,1
+C270,36,Female,Single,High School,Employed,16,87104,587,100730,Business,10,6,0.36,1,7,Own,0,Urban,13,0,0.08,835.0,10438.0,Full-time,627,0
+C271,52,Male,Married,Postgraduate,Self-employed,28,85919,576,116952,Business,3,8,0.46,1,4,Rent,1,Suburban,3,0,0.08,60408.0,8945.0,Self-employed,621,1
+C272,42,Female,Married,Postgraduate,Employed,22,85963,578,125364,Home,5,5,0.71,1,5,Own,0,Urban,17,0,0.08,33132.0,7467.0,Full-time,630,0
+C273,25,Male,Divorced,Undergraduate,Employed,5,74921,590,86917,Personal,7,8,0.34,5,6,Mortgage,3,Urban,7,0,0.09,48904.0,1168.0,Full-time,548,1
+C274,52,Female,Married,Undergraduate,Employed,14,67879,542,190204,Home,3,4,0.52,3,2,Mortgage,0,Suburban,3,0,0.1,13844.0,8283.0,Part-time,560,0
+C275,44,Female,Married,Undergraduate,Employed,6,141672,852,21407,Home,3,2,0.65,0,4,Own,3,Urban,12,0,0.07,99301.0,20460.0,Full-time,705,0
+C276,55,Male,Married,Graduate,Employed,9,112768,710,96050,Debt Consolidation,9,3,0.63,0,3,Rent,1,Urban,9,0,0.08,46098.0,8949.0,Full-time,710,0
+C277,57,Female,Single,Postgraduate,Employed,9,146931,824,122413,Car,9,3,0.68,0,9,Own,3,Urban,9,0,0.07,106704.0,21120.0,Full-time,692,0
+C278,36,Female,Married,Graduate,Self-employed,3,69156,500,96208,Car,14,3,0.38,0,7,Mortgage,2,Urban,14,0,0.09,7194.0,5851.0,Self-employed,705,0
+C279,50,Female,Divorced,Graduate,Employed,6,44266,571,141544,Business,2,5,0.61,2,8,Rent,2,Urban,2,1,0.15,19867.0,2241.0,Full-time,495,0
+C280,44,Female,Married,High School,Employed,24,35470,549,189579,Car,5,4,0.61,2,2,Own,0,Urban,5,0,0.19,17886.0,2042.0,Full-time,549,0
+C281,27,Female,Married,Graduate,Employed,7,41620,585,108578,Debt Consolidation,9,3,0.3,1,2,Own,0,Suburban,9,0,0.17,28481.0,3075.0,Full-time,683,0
+C282,27,Male,Married,Graduate,Employed,4,46535,567,139042,Home,4,8,0.47,0,10,Own,0,Urban,4,0,0.15,25389.0,845.0,Part-time,634,0
+C283,57,Female,Single,Graduate,Employed,28,107994,610,153653,Business,3,3,0.82,6,6,Rent,3,Suburban,22,0,0.07,10024.0,14136.0,Part-time,502,1
+C284,31,Male,Married,Undergraduate,Employed,11,105645,637,149207,Car,2,3,0.29,0,8,Rent,2,Urban,13,0,0.07,3880.0,10686.0,Part-time,701,0
+C285,37,Male,Married,Undergraduate,Employed,14,80341,583,34549,Home,14,1,0.83,1,5,Own,1,Urban,14,0,0.09,23790.0,10372.0,Full-time,634,0
+C286,58,Female,Married,Undergraduate,Unemployed,0,0,724,44662,Debt Consolidation,3,2,0.86,1,10,Mortgage,0,Urban,5,0,,,,Unemployed,495,1
+C287,45,Male,Single,High School,Employed,21,115178,725,237558,Education,14,8,0.33,2,7,Own,0,Urban,14,0,0.08,89126.0,15229.0,Full-time,705,0
+C288,32,Male,Widowed,High School,Employed,2,78291,564,57201,Business,2,4,0.94,4,7,Own,0,Urban,2,0,0.09,12161.0,4305.0,Full-time,510,1
+C289,31,Male,Divorced,Undergraduate,Employed,4,112421,569,171022,Home,2,5,0.5,2,7,Own,2,Rural,2,0,0.06,15620.0,122.0,Part-time,639,1
+C290,24,Female,Married,Postgraduate,Unemployed,0,0,665,30394,Car,6,3,0.35,4,9,Own,3,Urban,6,0,,,,Unemployed,495,1
+C291,42,Female,Married,Graduate,Employed,9,90686,528,45993,Debt Consolidation,4,4,0.38,1,8,Own,2,Suburban,15,0,0.07,49999.0,4709.0,Full-time,649,0
+C292,35,Male,Single,Undergraduate,Employed,15,146528,827,47867,Education,4,7,0.73,0,3,Rent,2,Urban,4,0,0.07,107648.0,15958.0,Full-time,707,0
+C293,24,Female,Married,Graduate,Unemployed,0,0,649,22251,Education,6,8,0.45,1,2,Rent,2,Suburban,6,0,,,,Unemployed,509,1
+C294,32,Female,Single,Undergraduate,Employed,3,80711,515,200175,Business,14,6,0.88,1,3,Rent,3,Urban,14,0,0.08,59097.0,1603.0,Full-time,594,1
+C295,31,Male,Single,Undergraduate,Employed,3,115707,660,31801,Education,13,2,0.88,0,5,Rent,1,Suburban,13,0,0.07,25251.0,5147.0,Full-time,710,0
+C296,56,Female,Divorced,Undergraduate,Employed,5,142255,606,171255,Education,5,5,0.63,0,5,Rent,2,Suburban,19,0,0.05,50639.0,5009.0,Full-time,716,0
+C297,60,Male,Single,High School,Employed,9,69390,501,200324,Personal,14,6,0.94,6,8,Own,1,Rural,15,0,0.09,10195.0,1537.0,Part-time,495,1
+C298,58,Female,Married,Graduate,Employed,17,104233,670,88681,Home,4,2,0.77,0,5,Rent,1,Urban,4,1,0.08,42012.0,7281.0,Part-time,607,1
+C299,50,Male,Married,Graduate,Employed,14,56498,563,171613,Debt Consolidation,10,2,0.89,0,10,Mortgage,0,Suburban,12,0,0.12,15043.0,3936.0,Full-time,613,0
+C300,55,Female,Married,Postgraduate,Employed,3,145229,630,242236,Car,24,6,0.31,0,4,Mortgage,1,Urban,24,0,0.05,44722.0,17548.0,Full-time,761,0
+C301,44,Male,Single,High School,Employed,18,103548,605,126553,Personal,9,3,0.5,2,8,Mortgage,2,Suburban,9,0,0.07,40502.0,3906.0,Full-time,681,0
+C302,45,Male,Single,Undergraduate,Employed,11,89238,599,127092,Personal,12,6,0.44,1,9,Own,3,Suburban,13,1,0.08,9490.0,4868.0,Part-time,566,1
+C303,40,Male,Divorced,Graduate,Employed,20,107990,710,60736,Education,1,7,0.94,0,9,Rent,1,Suburban,18,0,0.08,10100.0,11204.0,Full-time,655,0
+C304,36,Male,Single,Graduate,Employed,16,65983,525,39360,Home,6,2,0.89,3,7,Rent,0,Suburban,16,0,0.1,34714.0,5544.0,Full-time,520,1
+C305,50,Female,Divorced,Undergraduate,Employed,22,101218,603,139238,Car,13,5,0.56,2,10,Mortgage,3,Suburban,24,0,0.07,39832.0,13068.0,Full-time,631,0
+C306,56,Female,Married,High School,Employed,19,97906,615,216936,Personal,3,3,0.45,1,2,Own,3,Urban,4,0,0.08,56017.0,5643.0,Full-time,629,0
+C307,37,Female,Single,Graduate,Self-employed,18,67397,541,65406,Home,10,2,0.32,2,4,Rent,3,Suburban,10,0,0.1,29505.0,1906.0,Self-employed,620,0
+C308,35,Female,Married,High School,Employed,15,125380,782,136116,Car,6,7,0.79,1,2,Own,2,Urban,17,1,0.07,35321.0,1779.0,Full-time,562,1
+C309,23,Female,Married,Postgraduate,Employed,3,59680,532,122302,Debt Consolidation,5,3,0.92,0,8,Own,0,Rural,5,0,0.11,41576.0,2786.0,Full-time,627,0
+C310,26,Female,Married,Undergraduate,Employed,2,72616,540,20453,Home,1,1,0.37,3,10,Rent,1,Urban,2,0,0.09,39243.0,2017.0,Full-time,579,1
+C311,24,Female,Widowed,Graduate,Employed,4,95747,608,85867,Car,6,6,0.89,2,10,Mortgage,1,Suburban,6,0,0.08,10929.0,13900.0,Full-time,555,0
+C312,36,Female,Single,Undergraduate,Self-employed,20,129622,589,180259,Education,18,8,0.57,0,8,Mortgage,1,Suburban,18,1,0.05,25008.0,16160.0,Self-employed,614,0
+C313,38,Female,Married,Undergraduate,Employed,18,110317,731,158982,Car,1,8,0.59,1,7,Mortgage,2,Urban,8,0,0.08,595.0,7875.0,Full-time,669,0
+C314,32,Male,Married,High School,Employed,3,76073,511,194077,Business,14,2,0.48,0,10,Own,1,Urban,14,0,0.08,59795.0,9281.0,Full-time,676,0
+C315,59,Male,Married,Undergraduate,Retired,0,67566,525,161774,Home,13,6,0.38,3,9,Own,2,Rural,13,0,0.09,19049.0,9951.0,Retired,596,1
+C316,45,Male,Married,Graduate,Employed,5,56393,563,108290,Personal,10,6,0.29,0,4,Own,1,Urban,21,0,0.12,44527.0,5085.0,Full-time,672,0
+C317,52,Male,Married,Graduate,Employed,15,89635,537,133457,Business,19,3,0.58,6,9,Own,2,Urban,25,1,0.07,36113.0,2486.0,Full-time,495,1
+C318,31,Male,Widowed,High School,Employed,11,71034,509,44596,Business,13,8,0.84,0,3,Rent,2,Urban,13,0,0.09,42243.0,10203.0,Full-time,616,0
+C319,56,Male,Married,Undergraduate,Employed,2,31541,511,63074,Personal,11,2,0.47,1,2,Mortgage,1,Urban,11,0,0.19,5275.0,1181.0,Full-time,594,0
+C320,45,Female,Single,High School,Unemployed,0,0,702,29166,Debt Consolidation,21,1,0.89,0,9,Own,0,Urban,21,0,,1993.0,945.0,Unemployed,495,1
+C321,49,Male,Single,Undergraduate,Employed,8,37642,548,184832,Car,8,7,0.65,0,6,Own,0,Urban,29,0,0.17,23643.0,2523.0,Part-time,610,0
+C322,59,Female,Single,Undergraduate,Employed,12,89758,582,42419,Personal,8,3,0.52,2,8,Mortgage,2,Urban,10,0,0.08,2105.0,2568.0,Full-time,615,0
+C323,46,Female,Single,Graduate,Employed,10,31214,527,240306,Education,15,6,0.4,0,7,Mortgage,3,Urban,26,0,0.2,13777.0,3893.0,Full-time,650,0
+C324,50,Male,Married,Postgraduate,Employed,23,145399,852,34779,Debt Consolidation,11,8,0.81,1,2,Own,0,Suburban,11,0,0.07,57853.0,13863.0,Full-time,663,1
+C325,29,Male,Single,Undergraduate,Employed,9,140163,751,158562,Debt Consolidation,11,8,0.51,0,9,Own,2,Rural,11,0,0.06,70192.0,17709.0,Full-time,725,0
+C326,48,Female,Married,Graduate,Employed,20,106508,612,30683,Education,12,2,0.7,0,9,Own,2,Urban,12,0,0.07,16448.0,9491.0,Full-time,686,1
+C327,31,Male,Widowed,Undergraduate,Employed,11,97005,552,187462,Car,7,8,0.37,0,5,Rent,1,Urban,13,1,0.07,19276.0,5534.0,Full-time,558,0
+C328,37,Male,Single,Postgraduate,Employed,12,86326,561,90198,Car,7,1,0.89,0,8,Rent,2,Suburban,7,0,0.08,56747.0,12944.0,Full-time,618,0
+C329,49,Female,Married,High School,Employed,9,43334,513,179599,Business,13,7,0.77,3,7,Rent,2,Suburban,24,0,0.14,3370.0,5976.0,Part-time,556,1
+C330,28,Female,Married,Postgraduate,Employed,8,47459,580,198157,Car,10,6,0.6,0,8,Rent,0,Suburban,10,1,0.15,24829.0,3548.0,Full-time,578,0
+C331,37,Male,Married,High School,Employed,12,115435,572,42606,Car,12,8,0.89,2,7,Own,1,Urban,15,1,0.06,20595.0,11426.0,Part-time,537,1
+C332,26,Female,Married,Graduate,Employed,6,85991,591,160788,Debt Consolidation,8,5,0.52,5,7,Own,1,Urban,8,0,0.08,68371.0,2738.0,Full-time,495,1
+C333,55,Male,Married,Undergraduate,Employed,26,93600,545,124470,Debt Consolidation,24,3,0.41,2,2,Mortgage,0,Suburban,24,0,0.07,61597.0,12048.0,Full-time,660,0
+C334,39,Male,Married,High School,Employed,10,103994,689,68506,Car,3,1,0.33,1,6,Rent,3,Suburban,3,0,0.08,43601.0,10420.0,Full-time,665,1
+C335,27,Female,Married,Postgraduate,Employed,7,39964,554,233869,Home,4,5,0.34,0,10,Own,1,Urban,9,0,0.17,29904.0,2652.0,Full-time,635,1
+C336,45,Male,Single,Graduate,Employed,19,68889,579,188279,Home,2,7,0.31,3,3,Own,0,Suburban,11,0,0.1,30794.0,9761.0,Part-time,609,1
+C337,23,Male,Single,High School,Unemployed,0,0,891,31877,Education,2,1,0.88,4,8,Mortgage,3,Urban,4,1,,,,Unemployed,495,1
+C338,40,Female,Single,Graduate,Employed,20,82960,505,178322,Car,9,3,0.48,1,5,Own,3,Urban,9,0,0.07,6861.0,8990.0,Full-time,612,1
+C339,50,Female,Widowed,High School,Employed,5,123955,648,245779,Education,5,7,0.54,1,5,Own,1,Urban,21,0,0.06,8419.0,15184.0,Full-time,701,0
+C340,37,Female,Single,Undergraduate,Self-employed,17,116133,701,66715,Car,14,1,0.58,0,10,Rent,2,Rural,19,0,0.07,89922.0,4846.0,Self-employed,714,0
+C341,56,Female,Divorced,High School,Employed,21,111976,684,188138,Home,1,2,0.34,1,9,Mortgage,2,Rural,1,0,0.07,16406.0,10394.0,Part-time,712,0
+C342,27,Male,Single,Graduate,Employed,7,62471,598,74213,Car,0,6,0.37,3,3,Rent,0,Urban,0,0,0.11,38179.0,1587.0,Full-time,553,0
+C343,45,Male,Divorced,Graduate,Employed,3,125018,555,162658,Business,13,4,0.76,0,10,Own,0,Urban,14,1,0.05,21390.0,12881.0,Full-time,576,1
+C344,41,Female,Married,High School,Employed,21,116784,560,248499,Education,4,7,0.9,0,2,Mortgage,0,Suburban,23,0,0.06,12055.0,5389.0,Full-time,670,1
+C345,52,Male,Divorced,Graduate,Employed,14,41760,542,45762,Education,4,2,0.53,0,4,Rent,0,Suburban,4,0,0.16,31629.0,4811.0,Full-time,683,0
+C346,53,Female,Married,Graduate,Employed,24,55318,508,169594,Debt Consolidation,1,1,0.81,0,4,Rent,1,Suburban,1,0,0.11,16940.0,7619.0,Full-time,630,0
+C347,39,Female,Single,High School,Employed,16,129087,710,134212,Debt Consolidation,4,1,0.65,2,9,Rent,0,Suburban,4,0,0.07,28225.0,13085.0,Full-time,635,1
+C348,31,Female,Single,Graduate,Self-employed,26,56849,532,121551,Car,9,4,0.7,3,2,Mortgage,2,Urban,13,1,0.11,37563.0,1646.0,Self-employed,495,1
+C349,43,Female,Single,High School,Self-employed,25,75761,508,23262,Personal,17,1,0.36,0,3,Rent,0,Urban,25,0,0.08,50617.0,4109.0,Self-employed,696,0
+C350,29,Female,Single,Graduate,Employed,9,142743,528,53892,Car,9,7,0.5,1,2,Mortgage,2,Urban,9,0,0.04,97596.0,15702.0,Full-time,717,0
+C351,54,Female,Married,Undergraduate,Employed,15,144416,608,132150,Business,16,2,0.29,0,4,Mortgage,0,Urban,16,0,0.05,83536.0,13806.0,Full-time,754,0
+C352,34,Male,Single,High School,Self-employed,4,143476,631,134560,Personal,16,1,0.67,3,3,Mortgage,0,Suburban,16,1,0.05,85269.0,9969.0,Self-employed,524,1
+C353,37,Female,Widowed,Undergraduate,Employed,10,76404,510,74437,Education,10,4,0.89,0,3,Mortgage,3,Urban,10,0,0.08,58221.0,5234.0,Full-time,609,1
+C354,27,Female,Divorced,Undergraduate,Employed,6,76910,529,40431,Home,7,8,0.51,0,10,Own,1,Suburban,7,1,0.08,23977.0,680.0,Full-time,558,0
+C355,46,Female,Single,High School,Employed,22,122641,611,221000,Car,5,8,0.74,0,2,Mortgage,0,Urban,5,0,0.06,66691.0,10082.0,Part-time,710,1
+C356,35,Female,Single,Graduate,Employed,15,84545,533,135981,Home,17,2,0.33,3,3,Rent,1,Suburban,17,0,0.08,16091.0,5255.0,Full-time,599,1
+C357,43,Male,Single,Graduate,Employed,11,39491,574,113293,Personal,4,3,0.62,0,6,Rent,1,Rural,7,1,0.17,23363.0,4300.0,Full-time,525,1
+C358,30,Male,Married,Postgraduate,Employed,10,125954,527,162412,Education,1,6,0.47,3,2,Own,2,Suburban,1,0,0.05,7310.0,2399.0,Full-time,632,0
+C359,34,Female,Divorced,High School,Employed,3,39852,577,117295,Business,16,7,0.51,1,7,Mortgage,2,Urban,16,0,0.17,11595.0,5646.0,Full-time,629,0
+C360,44,Female,Divorced,Postgraduate,Employed,6,112861,671,213781,Business,26,6,0.83,2,10,Mortgage,1,Urban,26,0,0.07,72723.0,32.0,Full-time,650,0
+C361,55,Male,Single,Undergraduate,Employed,20,107116,630,104629,Debt Consolidation,14,4,0.66,2,4,Own,1,Urban,21,0,0.07,72302.0,13632.0,Full-time,660,0
+C362,26,Male,Married,Undergraduate,Employed,6,60628,538,89672,Car,1,7,0.26,0,4,Mortgage,1,Suburban,1,1,0.11,3621.0,3683.0,Full-time,562,0
+C363,30,Male,Married,Undergraduate,Employed,4,117794,647,224297,Debt Consolidation,8,4,0.85,4,6,Own,0,Rural,8,1,0.07,24843.0,13716.0,Full-time,495,1
+C364,46,Male,Married,High School,Self-employed,7,75192,522,175794,Home,21,2,0.87,1,2,Own,0,Urban,21,0,0.08,50575.0,4953.0,Self-employed,619,0
+C365,50,Female,Married,Undergraduate,Self-employed,25,102551,522,33275,Personal,13,5,0.6,0,2,Mortgage,1,Urban,13,0,0.06,31958.0,9407.0,Self-employed,702,0
+C366,23,Female,Single,Graduate,Employed,3,131307,527,117919,Home,5,4,0.47,0,3,Own,2,Urban,5,0,0.05,38640.0,11367.0,Full-time,721,0
+C367,31,Female,Single,High School,Self-employed,9,138731,618,57412,Business,11,7,0.36,2,5,Mortgage,0,Urban,13,0,0.05,29545.0,16150.0,Self-employed,684,0
+C368,43,Female,Married,High School,Employed,18,131226,589,153873,Debt Consolidation,7,7,0.59,2,10,Own,2,Urban,25,0,0.05,71494.0,9096.0,Full-time,645,0
+C369,54,Male,Married,Undergraduate,Employed,6,75565,531,85888,Personal,1,4,0.92,3,4,Own,3,Suburban,18,0,0.08,6533.0,243.0,Full-time,504,1
+C370,59,Female,Divorced,Undergraduate,Retired,0,43770,577,25829,Personal,24,5,0.59,3,4,Rent,1,Suburban,25,0,0.16,7378.0,5399.0,Retired,626,0
+C371,39,Female,Married,Undergraduate,Employed,4,81529,501,247650,Home,17,6,0.67,1,10,Mortgage,3,Urban,21,0,0.07,21692.0,7407.0,Full-time,607,0
+C372,58,Male,Married,Undergraduate,Self-employed,8,109056,582,137928,Debt Consolidation,4,7,0.53,0,8,Own,2,Suburban,4,0,0.06,82215.0,10245.0,Self-employed,731,0
+C373,32,Male,Married,Postgraduate,Employed,11,101035,591,39797,Education,8,4,0.65,0,2,Own,3,Rural,8,0,0.07,19642.0,14878.0,Full-time,730,0
+C374,35,Female,Married,Postgraduate,Employed,15,146378,590,162045,Car,0,4,0.85,4,3,Rent,2,Urban,0,1,0.05,62537.0,8378.0,Full-time,495,1
+C375,47,Female,Divorced,Graduate,Employed,22,87911,546,33092,Business,17,6,0.56,3,5,Own,1,Suburban,17,0,0.07,52137.0,559.0,Full-time,564,0
+C376,42,Female,Married,Postgraduate,Employed,22,121552,657,54600,Home,16,8,0.91,1,6,Own,2,Urban,16,1,0.06,87640.0,256.0,Full-time,536,0
+C377,40,Female,Single,Postgraduate,Employed,20,140352,903,107483,Car,2,1,0.59,1,6,Own,2,Suburban,2,1,0.08,4512.0,16630.0,Full-time,549,0
+C378,37,Female,Single,Undergraduate,Employed,17,99180,526,245074,Debt Consolidation,9,2,0.42,0,10,Mortgage,3,Urban,9,0,0.06,59949.0,13769.0,Full-time,680,0
+C379,46,Male,Single,Graduate,Employed,11,86221,521,21509,Education,10,3,0.64,1,4,Mortgage,2,Urban,10,0,0.07,60313.0,3960.0,Full-time,611,0
+C380,47,Female,Married,High School,Employed,2,38080,560,164980,Home,11,5,0.32,2,9,Own,0,Suburban,12,0,0.18,23756.0,1848.0,Full-time,591,1
+C381,51,Female,Single,Graduate,Employed,29,130950,702,186129,Home,13,3,0.45,1,6,Rent,2,Suburban,13,0,0.06,38736.0,7641.0,Full-time,689,0
+C382,38,Male,Single,Undergraduate,Employed,3,141417,644,76888,Car,3,5,0.43,3,6,Own,2,Suburban,3,0,0.05,53171.0,19522.0,Full-time,635,1
+C383,31,Female,Single,Graduate,Employed,4,108414,573,21986,Car,13,2,0.4,0,2,Own,1,Urban,13,1,0.06,6610.0,10524.0,Full-time,642,1
+C384,50,Female,Married,Undergraduate,Employed,23,120964,728,63284,Business,20,1,0.57,2,10,Own,2,Rural,20,0,0.07,22331.0,11324.0,Full-time,698,0
+C385,43,Female,Married,High School,Self-employed,14,54150,538,162181,Home,0,5,0.28,3,10,Rent,3,Suburban,0,0,0.12,23244.0,5683.0,Self-employed,584,1
+C386,52,Male,Married,Undergraduate,Employed,13,73744,568,190231,Business,28,7,0.33,0,8,Own,0,Urban,28,0,0.09,18015.0,6452.0,Part-time,710,0
+C387,49,Male,Married,Graduate,Employed,2,116649,538,104739,Debt Consolidation,1,1,0.38,0,8,Own,2,Urban,25,1,0.06,5206.0,17182.0,Part-time,609,1
+C388,30,Male,Single,Graduate,Self-employed,5,75825,523,227328,Home,2,7,0.44,0,10,Rent,2,Rural,12,0,0.08,53664.0,415.0,Self-employed,640,1
+C389,41,Female,Married,Undergraduate,Employed,10,132120,879,219184,Home,4,6,0.67,0,3,Rent,0,Urban,5,0,0.08,47367.0,9168.0,Full-time,696,0
+C390,54,Male,Married,Graduate,Employed,7,50256,511,61340,Business,8,8,0.44,2,3,Rent,2,Suburban,23,0,0.12,9399.0,3853.0,Full-time,601,0
+C391,25,Male,Divorced,Undergraduate,Employed,5,41528,516,156986,Personal,7,8,0.41,3,2,Rent,2,Suburban,7,0,0.15,8118.0,2564.0,Full-time,558,0
+C392,39,Male,Widowed,High School,Employed,8,91394,594,141716,Home,14,5,0.72,0,7,Own,0,Rural,14,0,0.08,45802.0,2484.0,Full-time,639,0
+C393,59,Female,Single,Undergraduate,Retired,0,67916,555,64871,Education,9,3,0.73,1,3,Mortgage,1,Suburban,11,0,0.1,20968.0,4817.0,Retired,593,0
+C394,57,Male,Married,Undergraduate,Employed,18,130588,637,103509,Home,12,1,0.56,0,7,Own,3,Suburban,12,0,0.06,64373.0,6704.0,Full-time,710,0
+C395,43,Male,Divorced,Graduate,Employed,23,134488,715,155174,Education,4,6,0.5,0,6,Mortgage,2,Suburban,4,0,0.06,10532.0,13518.0,Full-time,693,0
+C396,29,Male,Widowed,Graduate,Employed,1,35607,599,146406,Business,8,3,0.32,2,2,Own,3,Suburban,11,0,0.2,17856.0,1436.0,Part-time,583,0
+C397,40,Male,Married,Postgraduate,Employed,4,34576,504,192704,Education,13,7,0.5,0,5,Rent,2,Urban,13,0,0.17,4995.0,1501.0,Full-time,649,0
+C398,34,Female,Married,Undergraduate,Employed,6,53769,576,40156,Business,16,3,0.37,0,3,Rent,2,Urban,16,0,0.13,2768.0,5302.0,Full-time,712,0
+C399,43,Female,Widowed,Undergraduate,Employed,23,43882,513,21095,Personal,4,2,0.81,6,3,Own,1,Rural,4,0,0.14,4979.0,1212.0,Full-time,495,1
+C400,33,Male,Divorced,Postgraduate,Employed,13,44780,579,136049,Education,11,4,0.86,6,3,Rent,2,Suburban,15,0,0.16,31218.0,3512.0,Full-time,495,1
+C401,50,Female,Single,Undergraduate,Employed,7,144605,637,148140,Car,5,4,0.87,0,9,Rent,1,Urban,5,0,0.05,66770.0,5205.0,Part-time,665,0
+C402,40,Male,Single,Undergraduate,Employed,6,109301,724,216349,Education,8,5,0.47,0,3,Own,2,Suburban,8,0,0.08,28024.0,8050.0,Full-time,723,0
+C403,52,Male,Married,Graduate,Employed,18,85184,553,192905,Education,2,4,0.91,0,10,Mortgage,2,Urban,2,0,0.08,23123.0,9329.0,Full-time,630,1
+C404,22,Male,Married,Graduate,Employed,2,84796,555,143777,Education,4,8,0.27,4,10,Own,1,Rural,4,0,0.08,30990.0,3131.0,Full-time,571,1
+C405,23,Female,Married,High School,Employed,3,112665,684,20427,Debt Consolidation,5,2,0.55,6,10,Own,0,Urban,5,0,0.07,51690.0,8232.0,Full-time,502,1
+C406,36,Female,Single,Undergraduate,Employed,16,99002,591,65783,Business,12,3,0.4,0,6,Rent,0,Urban,12,0,0.07,29430.0,12450.0,Full-time,701,0
+C407,49,Male,Married,Undergraduate,Employed,19,72322,543,159596,Home,18,8,0.45,3,9,Rent,0,Rural,18,0,0.09,34318.0,9984.0,Full-time,573,1
+C408,30,Male,Married,Undergraduate,Employed,10,140454,566,218691,Home,12,5,0.79,0,5,Rent,2,Urban,12,0,0.05,25595.0,17285.0,Part-time,709,1
+C409,34,Male,Widowed,Postgraduate,Employed,9,74464,544,119767,Debt Consolidation,11,2,0.9,0,5,Mortgage,0,Suburban,11,0,0.09,7630.0,8741.0,Full-time,627,0
+C410,23,Male,Divorced,High School,Employed,3,39638,543,189564,Education,5,6,0.27,1,6,Own,0,Rural,5,1,0.16,28596.0,5789.0,Full-time,523,1
+C411,28,Male,Married,Undergraduate,Self-employed,7,85036,507,59322,Personal,9,7,0.84,0,9,Mortgage,0,Urban,9,0,0.07,31645.0,7637.0,Self-employed,644,0
+C412,23,Female,Married,Undergraduate,Unemployed,0,0,861,48113,Business,5,2,0.32,1,5,Rent,0,Suburban,5,0,,,,Unemployed,512,1
+C413,35,Female,Divorced,Undergraduate,Employed,6,118606,520,204811,Car,9,3,0.49,1,10,Mortgage,2,Urban,9,0,0.05,22689.0,8252.0,Full-time,704,0
+C414,32,Female,Married,Undergraduate,Self-employed,5,132001,866,59767,Debt Consolidation,9,4,0.29,1,3,Own,2,Rural,9,1,0.08,71200.0,14126.0,Self-employed,630,0
+C415,33,Male,Married,High School,Employed,13,122160,695,156327,Education,15,4,0.85,0,5,Own,2,Rural,15,1,0.07,19476.0,3044.0,Full-time,623,1
+C416,28,Male,Divorced,High School,Employed,2,134060,685,140360,Car,10,2,0.51,1,8,Rent,0,Urban,10,0,0.06,5745.0,9679.0,Full-time,718,0
+C417,52,Female,Single,Postgraduate,Employed,6,102010,573,152915,Education,27,7,0.66,3,10,Own,3,Urban,27,0,0.07,45510.0,6025.0,Full-time,621,0
+C418,23,Female,Married,Undergraduate,Employed,3,127091,572,122566,Personal,5,6,0.62,0,6,Own,1,Rural,5,0,0.05,14440.0,7960.0,Full-time,706,0
+C419,47,Male,Divorced,High School,Unemployed,0,0,679,27876,Debt Consolidation,4,4,0.68,2,4,Own,2,Suburban,4,0,,,,Unemployed,495,1
+C420,46,Male,Married,Graduate,Employed,20,57746,569,62915,Business,13,3,0.92,0,2,Own,0,Rural,13,0,0.12,17629.0,8245.0,Full-time,650,0
+C421,56,Male,Single,Graduate,Employed,28,52149,550,161280,Business,20,1,0.86,0,4,Own,2,Urban,20,0,0.13,29495.0,1291.0,Part-time,633,1
+C422,31,Male,Divorced,Undergraduate,Employed,11,90103,531,157116,Business,5,3,0.9,0,6,Rent,1,Urban,5,0,0.07,17920.0,318.0,Full-time,606,0
+C423,41,Male,Married,High School,Employed,16,98306,648,36651,Car,23,5,0.38,0,4,Own,2,Urban,23,0,0.08,74466.0,6680.0,Full-time,703,0
+C424,43,Male,Married,High School,Employed,21,73066,503,58333,Debt Consolidation,3,1,0.48,2,3,Own,1,Suburban,17,0,0.08,10638.0,5828.0,Part-time,621,0
+C425,24,Male,Married,Graduate,Employed,4,139503,772,211911,Home,6,8,0.6,1,4,Rent,2,Suburban,6,0,0.07,18891.0,19347.0,Part-time,680,0
+C426,35,Male,Single,Graduate,Employed,15,98232,508,174529,Business,6,2,0.81,0,6,Rent,2,Suburban,6,1,0.06,24151.0,13380.0,Full-time,550,1
+C427,56,Male,Married,High School,Employed,22,76638,543,133920,Debt Consolidation,5,3,0.78,2,8,Rent,2,Suburban,5,0,0.09,11929.0,3897.0,Full-time,559,1
+C428,44,Male,Divorced,Graduate,Employed,24,111991,593,72132,Education,18,8,0.74,1,9,Rent,3,Urban,18,0,0.06,64068.0,16116.0,Full-time,657,0
+C429,25,Female,Single,Undergraduate,Employed,5,110602,616,172281,Home,7,6,0.27,1,6,Rent,2,Suburban,7,0,0.07,7283.0,15945.0,Full-time,719,0
+C430,27,Male,Single,Graduate,Self-employed,27,112863,633,151663,Education,4,2,0.71,5,2,Rent,0,Urban,9,0,0.07,87616.0,2845.0,Self-employed,528,1
+C431,51,Female,Single,High School,Employed,13,51975,593,96464,Personal,12,4,0.48,1,4,Mortgage,2,Urban,21,1,0.14,7045.0,279.0,Full-time,560,0
+C432,30,Female,Married,Graduate,Unemployed,0,0,937,41940,Car,12,5,0.63,1,5,Rent,1,Rural,12,1,,,,Unemployed,495,1
+C433,22,Female,Widowed,Undergraduate,Employed,2,78135,540,121583,Business,4,6,0.69,4,7,Rent,1,Urban,4,0,0.08,60071.0,1074.0,Full-time,524,1
+C434,37,Male,Single,Graduate,Employed,17,84989,590,78595,Personal,14,6,0.77,0,10,Mortgage,0,Urban,14,0,0.08,27360.0,5037.0,Full-time,664,1
+C435,22,Female,Single,Postgraduate,Unemployed,0,0,514,29271,Home,3,8,0.92,0,8,Mortgage,2,Suburban,4,0,,,,Unemployed,495,0
+C436,51,Male,Married,Graduate,Employed,18,135231,691,109900,Business,28,2,0.62,2,8,Own,0,Urban,28,1,0.06,60204.0,76.0,Full-time,575,1
+C437,57,Male,Single,High School,Self-employed,6,52419,580,207964,Education,28,3,0.45,0,9,Rent,2,Urban,28,0,0.13,16360.0,258.0,Self-employed,687,0
+C438,37,Female,Married,Graduate,Employed,17,33196,549,200786,Business,7,2,0.28,0,10,Mortgage,2,Urban,19,0,0.2,13203.0,3598.0,Part-time,640,0
+C439,42,Male,Married,Graduate,Employed,21,138007,918,134420,Home,9,5,0.63,0,5,Rent,0,Urban,10,1,0.08,10315.0,15200.0,Part-time,608,0
+C440,51,Female,Married,Undergraduate,Employed,12,68108,592,164526,Education,10,1,0.54,1,5,Mortgage,2,Suburban,10,0,0.1,51.0,318.0,Full-time,634,0
+C441,28,Male,Divorced,Postgraduate,Employed,8,141581,694,127009,Car,6,3,0.48,2,10,Own,1,Urban,10,0,0.06,29265.0,15954.0,Full-time,649,0
+C442,52,Male,Divorced,High School,Employed,3,47106,503,233605,Education,13,3,0.9,0,2,Mortgage,2,Suburban,26,0,0.13,16052.0,5913.0,Full-time,608,1
+C443,46,Female,Married,High School,Employed,23,51300,557,202017,Business,14,8,0.94,2,6,Rent,1,Urban,28,0,0.13,29802.0,219.0,Full-time,603,0
+C444,55,Female,Single,Postgraduate,Employed,22,54028,534,58015,Business,2,2,0.6,3,9,Rent,0,Suburban,2,0,0.12,43139.0,5132.0,Full-time,560,1
+C445,58,Female,Single,Graduate,Employed,12,59739,524,34497,Education,3,7,0.53,5,3,Mortgage,0,Urban,3,0,0.11,18706.0,8378.0,Full-time,495,0
+C446,35,Female,Single,High School,Employed,15,62009,565,37718,Business,6,8,0.6,1,2,Mortgage,2,Urban,6,0,0.11,43027.0,7436.0,Full-time,628,0
+C447,36,Male,Single,Graduate,Employed,2,97936,596,104263,Personal,1,4,0.61,1,4,Rent,1,Urban,1,0,0.07,50131.0,13643.0,Full-time,588,0
+C448,31,Female,Single,High School,Employed,11,101765,600,58311,Car,11,2,0.71,1,4,Own,0,Suburban,11,0,0.07,16427.0,508.0,Full-time,673,0
+C449,57,Male,Married,Graduate,Self-employed,21,60360,523,41424,Car,11,5,0.36,3,9,Rent,2,Rural,27,0,0.1,9032.0,7963.0,Self-employed,573,1
+C450,34,Male,Single,High School,Employed,12,69743,566,197059,Education,2,7,0.75,2,7,Rent,0,Urban,2,0,0.1,45530.0,8823.0,Full-time,566,0
+C451,60,Male,Single,Graduate,Employed,21,124884,546,203176,Education,6,6,0.28,1,7,Own,0,Urban,6,0,0.05,42244.0,8776.0,Full-time,699,0
+C452,51,Female,Single,High School,Employed,10,115982,685,143743,Education,15,8,0.35,2,5,Rent,1,Urban,15,0,0.07,16065.0,11886.0,Full-time,710,0
+C453,50,Male,Married,Undergraduate,Employed,20,125221,795,120264,Car,16,5,0.67,0,2,Own,0,Suburban,27,0,0.08,3060.0,13731.0,Full-time,704,0
+C454,60,Male,Married,Undergraduate,Employed,16,92751,587,173797,Home,19,4,0.71,0,3,Own,3,Suburban,20,1,0.08,37823.0,5622.0,Full-time,575,0
+C455,34,Female,Married,High School,Employed,10,36929,520,129599,Car,4,6,0.6,0,9,Rent,0,Urban,4,0,0.17,28039.0,1142.0,Part-time,613,0
+C456,51,Male,Single,Graduate,Employed,21,129143,656,160668,Car,2,5,0.41,0,8,Own,2,Suburban,2,1,0.06,74442.0,10478.0,Full-time,641,0
+C457,34,Female,Married,Undergraduate,Self-employed,28,91335,505,94469,Personal,15,4,0.32,0,3,Own,0,Urban,16,0,0.07,49695.0,883.0,Self-employed,723,0
+C458,35,Male,Single,Postgraduate,Employed,15,39649,577,79258,Debt Consolidation,8,4,0.64,6,3,Own,1,Rural,17,0,0.17,14605.0,5253.0,Full-time,495,1
+C459,52,Male,Married,Graduate,Employed,27,77396,537,91160,Business,16,7,0.66,3,5,Own,1,Suburban,16,0,0.08,39205.0,7039.0,Full-time,551,0
+C460,29,Male,Married,Undergraduate,Employed,9,33093,554,213708,Business,5,7,0.94,1,2,Mortgage,2,Rural,11,0,0.2,10582.0,3351.0,Full-time,534,0
+C461,25,Female,Married,Postgraduate,Employed,5,53752,524,249300,Home,7,5,0.62,0,7,Own,2,Rural,7,0,0.12,36572.0,4878.0,Full-time,670,1
+C462,41,Male,Married,Undergraduate,Employed,11,101880,510,234601,Personal,23,6,0.84,2,6,Rent,2,Suburban,23,0,0.06,69532.0,4786.0,Full-time,622,0
+C463,49,Female,Single,Postgraduate,Employed,5,31614,578,38800,Car,5,8,0.46,1,6,Own,2,Urban,5,0,0.22,24439.0,3216.0,Full-time,591,1
+C464,34,Female,Single,High School,Employed,14,136034,583,76387,Business,9,1,0.61,3,8,Rent,2,Urban,9,0,0.05,107697.0,947.0,Full-time,593,1
+C465,30,Male,Married,Graduate,Employed,10,138352,648,55079,Debt Consolidation,2,8,0.57,0,6,Mortgage,0,Suburban,12,0,0.06,1049.0,20513.0,Full-time,703,0
+C466,35,Female,Married,Postgraduate,Employed,15,125842,691,41556,Personal,15,8,0.58,0,10,Rent,3,Urban,15,1,0.07,5594.0,2460.0,Part-time,609,0
+C467,45,Male,Married,Graduate,Employed,6,147343,692,27394,Car,5,1,0.53,5,4,Rent,0,Rural,12,0,0.06,43665.0,5396.0,Full-time,586,0
+C468,42,Male,Married,Postgraduate,Employed,6,77003,541,197318,Debt Consolidation,2,8,0.35,3,6,Mortgage,2,Suburban,15,0,0.08,246.0,5212.0,Full-time,608,1
+C469,22,Male,Married,Graduate,Unemployed,0,0,752,23841,Debt Consolidation,4,7,0.88,0,9,Rent,3,Rural,4,1,,,,Unemployed,495,1
+C470,31,Female,Married,Graduate,Employed,8,45419,568,22921,Car,13,8,0.69,1,10,Own,1,Suburban,13,0,0.15,25409.0,6000.0,Full-time,598,0
+C471,41,Male,Married,Undergraduate,Employed,21,72145,577,243633,Business,8,1,0.92,3,2,Own,2,Urban,13,0,0.1,55360.0,8556.0,Part-time,511,1
+C472,26,Female,Single,High School,Employed,6,118495,502,163279,Home,8,1,0.33,2,3,Own,0,Urban,8,0,0.05,70258.0,12812.0,Full-time,698,0
+C473,46,Female,Divorced,High School,Self-employed,29,111687,561,56491,Personal,3,6,0.65,4,8,Rent,3,Suburban,15,0,0.06,85615.0,642.0,Self-employed,596,1
+C474,24,Female,Divorced,Undergraduate,Unemployed,0,0,854,47519,Business,6,6,0.63,4,9,Rent,0,Suburban,6,0,,,,Unemployed,495,1
+C475,57,Female,Married,Graduate,Employed,25,118425,655,89715,Business,9,3,0.36,1,6,Rent,2,Urban,9,0,0.07,47445.0,6702.0,Full-time,721,0
+C476,39,Male,Married,Undergraduate,Employed,19,140870,912,93339,Debt Consolidation,18,4,0.5,6,9,Rent,0,Urban,18,0,0.08,50908.0,11278.0,Full-time,548,1
+C477,37,Male,Single,Undergraduate,Employed,17,60279,515,55198,Debt Consolidation,4,1,0.93,1,2,Rent,0,Urban,4,0,0.1,8015.0,3420.0,Full-time,560,0
+C478,31,Male,Married,Graduate,Employed,11,85692,520,212416,Debt Consolidation,5,5,0.26,1,5,Rent,2,Urban,13,0,0.07,57492.0,11226.0,Full-time,656,0
+C479,53,Female,Single,Graduate,Employed,6,43919,541,231864,Personal,21,3,0.81,0,5,Rent,0,Urban,23,0,0.15,8463.0,1028.0,Full-time,652,1
+C480,38,Female,Married,High School,Employed,16,113360,627,215868,Home,4,5,0.69,5,3,Rent,1,Suburban,4,0,0.07,88707.0,10807.0,Full-time,551,0
+C481,24,Female,Single,Graduate,Employed,4,104095,626,86151,Home,6,5,0.8,3,7,Mortgage,3,Urban,6,1,0.07,9114.0,7078.0,Full-time,510,1
+C482,45,Female,Single,Graduate,Employed,25,132063,866,128585,Education,8,7,0.42,2,3,Mortgage,2,Suburban,11,0,0.08,36978.0,17562.0,Full-time,682,0
+C483,28,Female,Single,Postgraduate,Employed,8,97764,586,144766,Home,10,6,0.45,2,7,Rent,2,Suburban,10,0,0.07,73903.0,722.0,Full-time,608,0
+C484,49,Male,Single,High School,Employed,21,81030,553,148344,Home,17,1,0.33,1,4,Own,1,Urban,19,0,0.08,25957.0,4908.0,Full-time,670,0
+C485,55,Male,Married,Postgraduate,Employed,16,130153,709,77732,Personal,6,1,0.71,6,7,Rent,0,Rural,6,0,0.07,66299.0,17199.0,Full-time,528,1
+C486,35,Female,Married,Undergraduate,Employed,15,58173,539,235815,Debt Consolidation,16,3,0.5,0,10,Rent,0,Rural,17,0,0.11,3664.0,497.0,Full-time,678,1
+C487,22,Female,Married,Graduate,Unemployed,0,0,736,24604,Debt Consolidation,4,8,0.87,0,7,Own,3,Rural,4,0,,1588.0,464.0,Unemployed,495,1
+C488,24,Female,Single,High School,Employed,4,59894,539,144724,Personal,6,7,0.49,0,6,Mortgage,2,Urban,6,0,0.11,13697.0,2666.0,Full-time,670,0
+C489,58,Male,Married,Graduate,Employed,7,119521,786,230882,Business,12,7,0.46,3,5,Own,3,Urban,12,0,0.08,72144.0,9717.0,Full-time,655,1
+C490,60,Female,Married,High School,Employed,5,30824,557,137718,Debt Consolidation,13,5,0.84,1,4,Own,1,Rural,19,0,0.22,9982.0,776.0,Part-time,545,1
+C491,40,Female,Single,Undergraduate,Employed,20,74406,575,167049,Business,1,3,0.49,0,3,Rent,1,Urban,14,0,0.09,6569.0,1491.0,Full-time,655,0
+C492,42,Female,Divorced,High School,Employed,12,76553,599,37881,Home,15,2,0.86,0,2,Rent,2,Suburban,24,0,0.09,15861.0,1385.0,Full-time,629,0
+C493,31,Male,Single,Undergraduate,Employed,11,132201,526,242807,Debt Consolidation,3,8,0.8,1,9,Own,2,Urban,3,0,0.05,29520.0,236.0,Full-time,633,0
+C494,42,Female,Single,High School,Employed,22,117329,550,76232,Personal,7,2,0.85,1,6,Mortgage,3,Suburban,24,1,0.06,3098.0,8097.0,Full-time,561,1
+C495,59,Female,Married,High School,Employed,13,85268,518,161474,Debt Consolidation,15,1,0.28,0,4,Rent,1,Urban,15,0,0.07,50126.0,4161.0,Full-time,673,0
+C496,24,Male,Divorced,High School,Employed,4,101975,650,108747,Debt Consolidation,1,7,0.8,1,8,Own,1,Urban,1,0,0.08,31510.0,11616.0,Full-time,648,1
+C497,31,Male,Married,Graduate,Employed,2,141688,886,183322,Home,13,1,0.77,0,2,Rent,3,Urban,13,0,0.08,32210.0,16210.0,Full-time,697,0
+C498,47,Female,Married,Graduate,Employed,18,131982,631,233328,Home,13,4,0.64,1,3,Mortgage,3,Urban,13,0,0.06,61314.0,1408.0,Full-time,698,0
+C499,35,Male,Married,Graduate,Employed,4,48226,532,78215,Education,17,8,0.81,0,7,Rent,1,Suburban,17,1,0.13,27632.0,2057.0,Full-time,534,1
+C500,43,Male,Married,Undergraduate,Employed,19,73555,510,124216,Personal,13,5,0.61,2,9,Rent,0,Urban,13,0,0.08,50939.0,9815.0,Full-time,632,0
