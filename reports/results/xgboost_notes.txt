@@ -1,0 +1,7 @@
+XGBoost được chọn theo ROC-AUC trung bình của Stratified 5-fold CV: 0.9463.
+ROC-AUC train 0.9986; ROC-AUC test 0.9457; chênh lệch train-test 0.0529.
+Chênh lệch train-test lớn cần được xem là dấu hiệu overfit và kiểm tra thêm khi so sánh với các mô hình khác.
+Gini trên test là 0.8914; F1 tại threshold 0.5 là 0.8358.
+Recall lớp nợ xấu (1) tại threshold 0.5 là 0.7504.
+Confusion matrix test: TN=5001, FP=64, FN=354, TP=1064.
+SHAP mean absolute value xếp num__person_income là đặc trưng ảnh hưởng mạnh nhất trong mẫu test được giải thích.
