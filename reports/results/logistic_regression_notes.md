@@ -1,0 +1,6 @@
+# Nhận xét Mô hình: Logistic Regression (`logistic_regression`)
+
+- **Hiệu năng tổng quan**: Mô hình đạt `ROC-AUC = 0.8712` và `Gini = 0.7425` trên tập Test — mức nền (baseline) rất tốt và ổn định cho bài toán dự đoán rủi ro nợ xấu. Tại ngưỡng mặc định `0.5`, việc áp dụng SMOTE trong pipeline giúp đạt `Recall = 0.7666` (bắt đúng gần 77% khách hàng nợ xấu), trong khi `F1-Score = 0.6405` phản ánh tỷ lệ báo nhầm (False Positive) còn cao do xác suất sau SMOTE bị đẩy lên (cần hiệu chuẩn xác suất ở bước Calibration).
+- **Kiểm tra Overfitting**: Không có hiện tượng overfitting vì `train_auc (0.8736)`, `cv_auc (0.8727)` và `test_auc (0.8712)` gần như trùng khớp (chênh lệch chỉ `0.0024`), chứng tỏ mô hình tổng quát hóa rất tốt.
+- **Điểm mạnh / Điểm yếu**: Ưu điểm là tốc độ huấn luyện nhanh, ổn định và dễ giải thích trực tiếp qua hệ số tuyến tính (`coef_`). Nhược điểm là giả định tuyến tính nên khó nắm bắt các tương tác phi tuyến phức tạp giữa các biến tài chính như các mô hình cây (Random Forest, XGBoost, LightGBM).
+- **Đặc trưng quan trọng nhất**: Các yếu tố đẩy rủi ro nợ xấu tăng mạnh nhất là hạng khoản vay rủi ro cao (`loan_grade_G`, `F`, `E`, `D`) và tỷ lệ khoản vay trên thu nhập (`loan_percent_income`). Ngược lại, sở hữu nhà riêng (`person_home_ownership_OWN`) và hạng vay tốt (`loan_grade_A`, `B`, `C`) là các yếu tố giảm rủi ro rõ rệt nhất.
