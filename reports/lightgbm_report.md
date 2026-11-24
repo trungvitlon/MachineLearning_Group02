@@ -117,7 +117,50 @@ artifact tương ứng; không giả lập kết quả trên giao diện.
 
 ## Kết quả thực nghiệm
 
-Kết quả và nhận xét được cập nhật sau khi hoàn tất lượt train chính thức.
+Lượt chạy chính thức: 25.928 hồ sơ train, 6.483 hồ sơ test; 40 cấu hình,
+200 lượt fit trong CV. Không có cấu hình nào lỗi hoặc trả CV AUC thiếu.
+Tham số được chốt theo CV AUC trước lượt đánh giá test cuối cùng.
+
+| Chỉ số | Kết quả |
+|---|---:|
+| CV AUC trung bình | 0.945937 |
+| Độ lệch chuẩn CV AUC | 0.002605 |
+| Train AUC (refit) | 0.985628 |
+| Test AUC | 0.946495 |
+| Gini test | 0.892991 |
+| F1 lớp 1, ngưỡng 0.5 | 0.836262 |
+| Recall lớp 1, ngưỡng 0.5 | 0.738364 |
+
+Tham số tốt nhất: `n_estimators=500`, `learning_rate=0.1`, `num_leaves=15`,
+`max_depth=8`, `min_child_samples=50`, `subsample=0.8`, `colsample_bytree=0.8`,
+`reg_alpha=0.1`, `reg_lambda=0`.
+
+### Nhận xét bàn giao (8 ý)
+
+1. LightGBM đạt CV AUC 0.9459 ± 0.0026 trên năm fold, cho thấy kết quả
+   tương đối ổn định trong thiết lập chia dữ liệu hiện tại.
+2. Test AUC 0.9465 gần CV AUC; chưa thấy suy giảm lớn trên tập test này.
+3. Train AUC 0.9856 cao hơn CV AUC khoảng 0.0397, thể hiện dấu hiệu overfit;
+   không nên kết luận mô hình hoàn toàn không overfit.
+4. Ở ngưỡng 0.5, mô hình phát hiện 1.047/1.418 hồ sơ vỡ nợ, Recall 73.84%.
+5. Còn bỏ sót 371 hồ sơ vỡ nợ và cảnh báo nhầm 39 hồ sơ không vỡ nợ;
+   đây là hạn chế quan trọng dù AUC cao.
+6. Các đặc trưng gain cao nhất là tỷ lệ khoản vay/thu nhập, thu nhập và lãi suất;
+   importance được tính trên mô hình đã fit, không chứng minh nhân quả.
+7. Xác suất sau pipeline có SMOTE chưa được hiệu chuẩn; phần calibration
+   cần thực hiện trên validation/OOF train, không fit trên CSV test đã xuất.
+8. Chưa kết luận LightGBM tốt nhất nhóm khi chưa nhận kết quả bốn mô hình còn lại;
+   không tinh chỉnh thêm theo kết quả test này.
+
+### Kiểm tra sản phẩm
+
+- 16/16 kiểm thử qua, gồm các kiểm thử tiền xử lý chung có sẵn.
+- Kiểm tra Streamlit bằng AppTest: khởi động, nhập hồ sơ, dự đoán, từ chối
+  đầu vào không hợp lệ; không huấn luyện mô hình từ giao diện.
+- Kiểm tra định dạng JSON, CSV hai cột, thứ tự nhãn, công thức Gini;
+  chặn finalize lặp và từ chối model/config đã thay đổi.
+- Đã xem lại ảnh ROC, confusion matrix và importance sau khi xuất.
+- `.joblib` và dữ liệu processed không được commit; bàn giao model riêng.
 
 ## Tài liệu phương pháp
 

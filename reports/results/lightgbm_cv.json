@@ -1,0 +1,29 @@
+{
+  "model": "lightgbm",
+  "best_params": {
+    "model__subsample": 0.8,
+    "model__reg_lambda": 0.0,
+    "model__reg_alpha": 0.1,
+    "model__num_leaves": 15,
+    "model__n_estimators": 500,
+    "model__min_child_samples": 50,
+    "model__max_depth": 8,
+    "model__learning_rate": 0.1,
+    "model__colsample_bytree": 0.8
+  },
+  "cv_auc": 0.9459366181957277,
+  "cv_auc_std": 0.0026050746086282036,
+  "train_auc": 0.9856276837349979,
+  "n_iter": 40,
+  "train_rows": 25928,
+  "fingerprint": "b41cca4f86c24662c5ff6c83e69d90bf8b50e4d68be8263c881a6ee307c71575",
+  "model_sha256": "51282143eaa5e8b141a2eadd0d75b9c98ed4154ef9218018bf5ce27415982d74",
+  "versions": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  }
+}

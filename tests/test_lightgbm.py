@@ -125,3 +125,46 @@ def test_streamlit_initial_render():
     app.run(timeout=30)
     assert not app.exception
     assert len(app.tabs) == 3
+
+
+def test_streamlit_single_prediction(tmp_path, monkeypatch, fitted_search):
+    import joblib
+    from streamlit.testing.v1 import AppTest
+    import src.utils.config as config_module
+
+    config = load_config()
+    config["paths"]["models_dir"] = str(tmp_path / "models")
+    config["paths"]["reports_dir"] = str(tmp_path / "reports")
+    config["paths"]["figures_dir"] = str(tmp_path / "figures")
+    model_dir = tmp_path / "models"
+    model_dir.mkdir()
+    joblib.dump(fitted_search.best_estimator_, model_dir / "lightgbm.joblib")
+    monkeypatch.setattr(config_module, "load_config", lambda: config)
+    app = AppTest.from_file(str(train.PROJECT_ROOT / "app" / "main.py")).run(timeout=30)
+    next(b for b in app.button if b.label == "Dự đoán").click().run(timeout=30)
+    assert not app.exception
+    assert len(app.metric) == 1
+    next(n for n in app.number_input if n.label == "Số năm lịch sử tín dụng").set_value(99)
+    next(b for b in app.button if b.label == "Dự đoán").click().run(timeout=30)
+    assert not app.exception
+    assert any("Lịch sử tín dụng" in e.value for e in app.error)
+
+
+@pytest.mark.parametrize("change", ["config", "model"])
+def test_finalization_rejects_changed_candidate(tmp_path, monkeypatch, fitted_search, sample, change):
+    monkeypatch.setattr(train, "PROJECT_ROOT", tmp_path)
+    config = load_config()
+    raw = tmp_path / config["data"]["raw_path"]
+    raw.parent.mkdir(parents=True)
+    raw.write_text("synthetic-test-data", encoding="utf-8")
+    X, y = sample
+    train.fit_candidate(config, "lightgbm", SimpleNamespace(tune=lambda *a, **kw: fitted_search), X, y, 1)
+    paths = train.artifact_paths(config, "lightgbm")
+    if change == "config":
+        config["preprocessing"]["outlier_method"] = "none"
+    else:
+        with paths["model"].open("ab") as artifact:
+            artifact.write(b"changed")
+    with pytest.raises(ValueError, match="changed|does not match"):
+        train.finalize(config, "lightgbm", X, y)
+    assert not paths["proba"].exists()
