@@ -157,21 +157,25 @@ def evaluate_and_save(
     return metrics
 
 def compare_models(results_dir: str | Path = "reports/results") -> pd.DataFrame:
-    """Tổng hợp toàn bộ file *.json trong reports/results/ thành bảng so sánh 5 mô hình."""
+    """Tổng hợp toàn bộ file *.json kết quả mô hình trong reports/results/ thành bảng so sánh."""
     rdir = PROJECT_ROOT / results_dir
+    required_keys = {"model", "cv_auc", "train_auc", "test_auc", "gini", "f1", "recall", "threshold"}
     rows = []
     for json_file in sorted(rdir.glob("*.json")):
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
+        # Bỏ qua các file JSON phụ (vd: calibration, scorecard, shap) không phải kết quả model
+        if not isinstance(data, dict) or not required_keys.issubset(data.keys()):
+            continue
         rows.append({
             "model": data["model"],
-            "cv_auc": data["cv_auc"],
-            "train_auc": data["train_auc"],
-            "test_auc": data["test_auc"],
-            "gini": data["gini"],
-            "f1": data["f1"],
-            "recall": data["recall"],
-            "threshold": data["threshold"],
+            "cv_auc": round(float(data["cv_auc"]), 4),
+            "train_auc": round(float(data["train_auc"]), 4),
+            "test_auc": round(float(data["test_auc"]), 4),
+            "gini": round(float(data["gini"]), 4),
+            "f1": round(float(data["f1"]), 4),
+            "recall": round(float(data["recall"]), 4),
+            "threshold": float(data["threshold"]),
         })
         
     if not rows:
