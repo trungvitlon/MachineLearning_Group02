@@ -203,7 +203,7 @@ def plot_all_roc_curves(results_dir: str | Path = "reports/results") -> Path:
     ax.plot([0, 1], [0, 1], color="gray", lw=1, linestyle="--", label="Random (0.5)")
     ax.set_xlabel("False Positive Rate (FPR)")
     ax.set_ylabel("True Positive Rate (TPR / Recall)")
-    ax.set_title("So sánh đường cong ROC — Các mô hình Credit Scoring")
+    ax.set_title("So sánh đường cong ROC - Các mô hình Credit Scoring")
     ax.legend(loc="lower right")
     ax.grid(alpha=0.3)
     
