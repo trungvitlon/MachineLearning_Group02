@@ -1,0 +1,14 @@
+# Minimal environment for member 5 (training, testing and Streamlit).
+# The shared requirements.txt is unchanged; Jupyter/SHAP/XGBoost are optional
+# for this branch and are installed separately when their modules are merged.
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+imbalanced-learn>=0.12.0
+lightgbm>=4.3.0
+matplotlib>=3.8.0
+pyyaml>=6.0.1
+joblib>=1.4.0
+plotly>=5.20.0
+streamlit>=1.35.0
+pytest>=8.0.0
