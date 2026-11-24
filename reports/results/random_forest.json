@@ -1,0 +1,18 @@
+{
+    "model": "random_forest",
+    "best_params": {
+        "model__n_estimators": 250,
+        "model__min_samples_split": 20,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "sqrt",
+        "model__max_depth": 15,
+        "model__criterion": "entropy"
+    },
+    "cv_auc": 0.9293510334620343,
+    "train_auc": 0.9759228284382051,
+    "test_auc": 0.926241233499068,
+    "gini": 0.8524824669981359,
+    "f1": 0.8139717425431711,
+    "recall": 0.731311706629055,
+    "threshold": 0.5
+}
